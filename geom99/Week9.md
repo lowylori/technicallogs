@@ -12,10 +12,10 @@ Reference Links: https://doc.arcgis.com/en/arcgis-solutions/latest/reference/int
 AGOL Item Link: https://fleming.maps.arcgis.com/home/item.html?id=96ca4c6b35c840fab9f678c176bccefb  (organization shared only)
 
 ### Steps:
-- [ ] Map out the structure of our web solution [30 mins]
-- [ ] Explore AGOL Solutions [30 mins]
-- [ ] Parks and Ground Management Solution [30 mins]
-- [ ] Deploy Parks and Grounds Managment [90 mins]
+- [x] Map out the structure of our web solution [30 mins]
+- [x] Explore AGOL Solutions [30 mins]
+- [x] Parks and Ground Management Solution [30 mins]
+- [x] Deploy Parks and Grounds Managment [90 mins]
 
 ## Map out the structure of our web solution [03/05/24 30 mins]
 
@@ -63,20 +63,22 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 ### 1. Parks and Grounds Request: This is the Survey and webmap that the public can use to create a request for maintenance or report problems. The survey is hosted through Survey123 and can be used on web or app.
 
  * Submitted a sample survey to test out the system
+ * Survey can also be modified to add different fields via Survey123
   <img width="343" alt="Screenshot 2024-03-14 at 9 49 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/38c676e2-b4fe-46b3-b3c4-439a77e9056f">
 
- * Viewed the web map (Requests) to see that the request was added.
+ * Viewed the web map (Requests) to see that the request was added. You can view the survey as an entry in the attribute table.
 <img width="1099" alt="Screenshot 2024-03-14 at 9 52 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/4c91546c-51cd-40ac-ac9c-4a55dcb2ee0a">
 
 ### 2. Parks and Grounds Inventory: ArcGIS Experience Builder app used by internal staff to create, update, and review parks and grounds assets.
 
- * created an asset within the Parks and Grounds Inventory. There is a variety of categories for assets. Each asset has a unique and standard symbol that can be easily interperted.
+ * created an asset within the Parks and Grounds Inventory. There is a variety of categories for assets. Each asset has a unique and standard symbol that can be easily interperted. This will be a useful time saver, so each asset doesn't need to be customized.
 <img width="1006" alt="Screenshot 2024-03-14 at 10 05 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/7a2699fd-b493-4ab7-b93b-9f780a406ad9">
  
- * viewing the field map on Map Viewer. Mobile workers can use this Field Maps in the Field to create, edit and review assets.
+ * viewing the field map on Map Viewer. Mobile workers can use this Field Maps in the Field to create, edit and review assets. Creating new assets is easy - like filling out a form. You select the location and set the category, the asset type, and a few details ie. public, seasonal etc.
 <img width="964" alt="Screenshot 2024-03-14 at 10 47 36 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/60081504-87d3-42d6-9bb7-3bdd6255996b">
 
- * Field map can be configured to suit business needs.
+ * Field map can be configured to suit business needs. You can modify the form (by category) and set different fields depending on what's important for the business. SAWC might need zone number included to allow for easy filtering.
+ * you can also enable the map for offline use which allows it to be downloaded in apps that support offline workflows and used in locations without an internet connection (can be useful when network connection is unreliable.
 
 <img width="764" alt="Screenshot 2024-03-14 at 10 50 16 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/42739ca8-cdc9-408b-aa2c-a18f43336e67">
 
@@ -95,7 +97,7 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 ### 4. Parks and Grounds Management Center: An experience builder app used by ops and maintenance managers to manage requessts for services and create work assignments.
 
  * The app opens to a dashboard view which displays number of open requests and number of unassigned work. From here, you can click to manage either.
- * From here, you can select the request and view the details. This is the request we created earlier.
+ * After that, you can select the request and view the details. This is the request we created earlier.
 
 <img width="856" alt="Screenshot 2024-03-14 at 11 10 46 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/19f64adc-687c-48e7-b086-06e108ad2678">
 
@@ -119,6 +121,7 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 
 <img width="1147" alt="Screenshot 2024-03-14 at 11 31 38 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/95c66f32-d71b-4c3b-8b86-ffa3a60fde43">
 
+ * Download the workforce app. Sign in.
  * From within the mobile workforce app, you are able to view the assignment, start it, add notes and update the status.
 
 ![IMG_3522](https://github.com/lowylori/technicallogs/assets/49323685/6a0b3a31-8557-4a70-833a-cececb982c05)
