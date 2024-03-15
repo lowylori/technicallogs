@@ -63,6 +63,8 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 
 2. Parks and Grounds Inventory: ArcGIS Experience Builder app used by internal staff to create, update, and review parks and grounds assets.
 
+ * created an asset within the Parks and Grounds Inventory. There is a variety of categories for assets. Each asset has a unique and standard symbol that can be easily interperted.
+<img width="1006" alt="Screenshot 2024-03-14 at 10 05 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/7a2699fd-b493-4ab7-b93b-9f780a406ad9">
 
    
 
