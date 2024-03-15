@@ -49,5 +49,13 @@ Cons:
 
 ## Deploy Parks and Grounds Managment [03/10/24 90 minutes]
 
-Desc
+Generated a replica of the Solution by selecting the 'deploy now' option on my Fleming AGOL account. From there, I could see the solution was divided into 4 major sections:
+
+<img width="891" alt="Screenshot 2024-03-14 at 9 45 39 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/18fc8c24-f22f-46cb-a2e5-59cc231ec050">
+
+1. Parks and Grounds Request: This is the Survey and webmap that the public can use to create a request for maintenance or report problems. The survey is hosted through Survey123 and can be used on web or app.
+
+* completed a sample survey to test out the system
+<img width="343" alt="Screenshot 2024-03-14 at 9 49 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/38c676e2-b4fe-46b3-b3c4-439a77e9056f">
+
 
