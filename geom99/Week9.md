@@ -9,6 +9,8 @@ Total Time: 3 hours
 
 Reference Links: https://doc.arcgis.com/en/arcgis-solutions/latest/reference/introduction-to-parks-and-grounds-management.htm
 
+AGOL Item Link: https://fleming.maps.arcgis.com/home/item.html?id=96ca4c6b35c840fab9f678c176bccefb  (organization shared only)
+
 ### Steps:
 - [ ] Map out the structure of our web solution
 - [ ] Explore AGOL Solutions
@@ -113,3 +115,9 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 <img width="1147" alt="Screenshot 2024-03-14 at 11 31 38 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/95c66f32-d71b-4c3b-8b86-ffa3a60fde43">
 
  * From within the mobile workforce app, you are able to view the assignment, start it, add notes and update the status.
+
+![IMG_3522](https://github.com/lowylori/technicallogs/assets/49323685/6a0b3a31-8557-4a70-833a-cececb982c05)
+
+![IMG_3523](https://github.com/lowylori/technicallogs/assets/49323685/b40d39e4-8a65-40da-bfdc-8138fc6d3811)
+
+
