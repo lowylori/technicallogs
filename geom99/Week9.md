@@ -56,7 +56,7 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 1. Parks and Grounds Request: This is the Survey and webmap that the public can use to create a request for maintenance or report problems. The survey is hosted through Survey123 and can be used on web or app.
 
  * Submitted a sample survey to test out the system
-<img width="343" alt="Screenshot 2024-03-14 at 9 49 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/38c676e2-b4fe-46b3-b3c4-439a77e9056f">
+ * <img width="343" alt="Screenshot 2024-03-14 at 9 49 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/38c676e2-b4fe-46b3-b3c4-439a77e9056f">
 
  * Viewed the web map (Requests) to see that the request was added.
 <img width="1099" alt="Screenshot 2024-03-14 at 9 52 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/4c91546c-51cd-40ac-ac9c-4a55dcb2ee0a">
