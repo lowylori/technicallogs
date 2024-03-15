@@ -65,7 +65,13 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 
  * created an asset within the Parks and Grounds Inventory. There is a variety of categories for assets. Each asset has a unique and standard symbol that can be easily interperted.
 <img width="1006" alt="Screenshot 2024-03-14 at 10 05 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/7a2699fd-b493-4ab7-b93b-9f780a406ad9">
+ 
+ * viewing the field map on Map Viewer. Mobile workers can use this Field Maps in the Field to create, edit and review assets.
+<img width="964" alt="Screenshot 2024-03-14 at 10 47 36 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/60081504-87d3-42d6-9bb7-3bdd6255996b">
 
-   
+ * Field map can be configured to suit business needs.
+
+<img width="764" alt="Screenshot 2024-03-14 at 10 50 16 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/42739ca8-cdc9-408b-aa2c-a18f43336e67">
+
 
 
