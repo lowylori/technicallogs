@@ -12,10 +12,10 @@ Reference Links: https://doc.arcgis.com/en/arcgis-solutions/latest/reference/int
 AGOL Item Link: https://fleming.maps.arcgis.com/home/item.html?id=96ca4c6b35c840fab9f678c176bccefb  (organization shared only)
 
 ### Steps:
-- [ ] Map out the structure of our web solution
-- [ ] Explore AGOL Solutions
-- [ ] Parks and Ground Management Solution
-- [ ] Deploy Parks and Grounds Managment 
+- [ ] Map out the structure of our web solution [30 mins]
+- [ ] Explore AGOL Solutions [30 mins]
+- [ ] Parks and Ground Management Solution [30 mins]
+- [ ] Deploy Parks and Grounds Managment [90 mins]
 
 ## Map out the structure of our web solution [03/05/24 30 mins]
 
