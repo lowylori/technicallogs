@@ -23,6 +23,11 @@ Created a flow chart to better understand the stucture of our web solution. The 
 
 ![SAWCEnvirAssessmentFlow](https://github.com/lowylori/technicallogs/assets/49323685/7affe64f-90a5-4502-8718-192445bd0e21)
 
+ * Found the internal requests and and public requests to be quite similar - may not need to have 2 seperate surveys for this.
+ * there will need to be more than one dashboard, so everything doesn't get lumped together in a data vomit.
+ * Need to consider who will be operating and managing each portion of this flow chart.
+ * More time to consider how we can use FME alongside AGOL.
+
 
 ## Explore AGOL Solutions [03/07/24 30 mins]
 
