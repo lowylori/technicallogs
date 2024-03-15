@@ -85,7 +85,31 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 
 <img width="430" alt="Screenshot 2024-03-14 at 11 04 35 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/993f1904-ae02-4d7d-876a-bdd1eb2c9c6f">
 
-### 4. Parks and Grounds Management Center:
+### 4. Parks and Grounds Management Center: An experience builder app used by ops and maintenance managers to manage requessts for services and create work assignments.
 
+ * The app opens to a dashboard view which displays number of open requests and number of unassigned work. From here, you can click to manage either.
+ * From here, you can select the request and view the details. This is the request we created earlier.
 
+<img width="856" alt="Screenshot 2024-03-14 at 11 10 46 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/19f64adc-687c-48e7-b086-06e108ad2678">
 
+ * Now you can click 'create assignment' and enter in the details. It allows you to select an assignment type, location, user, level of priority and due date. You can set a description and ass attachments to assist the worker. Since I have no workers yet, I left the assignment unassigned.
+
+<img width="601" alt="Screenshot 2024-03-14 at 11 13 17 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/0a280b7a-1afd-4a99-ab5b-bcee35d8dc3c">
+
+ * You can also configure the Parks and Grounds Management Center to suit the business needs.
+   
+<img width="1073" alt="Screenshot 2024-03-14 at 11 16 03 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/bea1b686-931d-4c7b-af0b-2cc0dc491cda">
+
+ * Workers are adding within the app configuration.
+
+<img width="827" alt="Screenshot 2024-03-14 at 11 20 20 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/e849f868-a610-4136-8ecd-0ab2f2c5c993">
+
+ * You can go back and assign the task to someone. It allows you to see who is currently working via workforce.
+
+<img width="599" alt="Screenshot 2024-03-14 at 11 22 15 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/9702c173-8d03-4446-93ab-9de821acf303">
+
+ * Revisiting the Parks and Grounds Assignment Webmap from the workforce group, you can see now that the the assignment is it there, along with a symbology for status
+
+<img width="1147" alt="Screenshot 2024-03-14 at 11 31 38 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/95c66f32-d71b-4c3b-8b86-ffa3a60fde43">
+
+ * From within the mobile workforce app, you are able to view the assignment, start it, add notes and update the status.
