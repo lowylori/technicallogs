@@ -1,4 +1,4 @@
-# Week 9 Log - Collab Web Project
+# Week 10 Log - Collab Web Project
 ### Summary
 
 Description: This log documents the workflow and exploration process for week 9 developing a web solution within the context of our project with Southern Africa Wildlife College.
