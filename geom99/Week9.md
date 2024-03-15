@@ -34,18 +34,18 @@ Spent some time browsing through various AGOL solutions and seeing which ones we
 Watched the 20 min overview of the solution and read through the documentation. I came up with the following pro's and con's from this process.
 
 Pros:
-	• Can submit both public and internal requests (forms are via survey123)
-	• Connected to field maps and has an active inventory for the ground
-	• Management center contains an intuitive dashboard that allows you to view open requests and unassigned work
-	• You can create assignments directly from the management center and assign a task to maintenance staff
-	• Park assignments - video did not cover the maintenance assignment side of this solution -need to know more
-		○ Uses workforce to assign tasks
-		○ Workers receive the task and update it when its complete
+* Can submit both public and internal requests (forms are via survey123)
+* Connected to field maps and has an active inventory for the grounds
+* Management center contains an intuitive dashboard that allows you to view open requests and unassigned work
+* You can create assignments directly from the management center and assign a task to maintenance staff
+* Park assignments - video did not cover the maintenance assignment side of this solution -need to know more
+* Uses workforce to assign tasks (an app our client was interested in)
+* Workers receive the task and update it when its complete
+* Dashboard to reflect workforce tasks as they are assigned, in progress and completed
 
 Cons:
-	• Generating reports -  not a feature
-	• Many layers to this solution, however, may be too complex  for the client.
-
+* Generating reports -  not a feature but an important requirement for our client
+* Many layers to this solution, however, may be too complex for the client. Looking for simple and easy to use.
 
 ## Deploy Parks and Grounds Managment [03/10/24 90 minutes]
 
