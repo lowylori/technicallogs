@@ -53,7 +53,7 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
 
 <img width="891" alt="Screenshot 2024-03-14 at 9 45 39 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/18fc8c24-f22f-46cb-a2e5-59cc231ec050">
 
-1. Parks and Grounds Request: This is the Survey and webmap that the public can use to create a request for maintenance or report problems. The survey is hosted through Survey123 and can be used on web or app.
+### 1. Parks and Grounds Request: This is the Survey and webmap that the public can use to create a request for maintenance or report problems. The survey is hosted through Survey123 and can be used on web or app.
 
  * Submitted a sample survey to test out the system
   <img width="343" alt="Screenshot 2024-03-14 at 9 49 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/38c676e2-b4fe-46b3-b3c4-439a77e9056f">
@@ -61,7 +61,7 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
  * Viewed the web map (Requests) to see that the request was added.
 <img width="1099" alt="Screenshot 2024-03-14 at 9 52 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/4c91546c-51cd-40ac-ac9c-4a55dcb2ee0a">
 
-2. Parks and Grounds Inventory: ArcGIS Experience Builder app used by internal staff to create, update, and review parks and grounds assets.
+### 2. Parks and Grounds Inventory: ArcGIS Experience Builder app used by internal staff to create, update, and review parks and grounds assets.
 
  * created an asset within the Parks and Grounds Inventory. There is a variety of categories for assets. Each asset has a unique and standard symbol that can be easily interperted.
 <img width="1006" alt="Screenshot 2024-03-14 at 10 05 31 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/7a2699fd-b493-4ab7-b93b-9f780a406ad9">
@@ -72,6 +72,20 @@ Generated a replica of the Solution by selecting the 'deploy now' option on my F
  * Field map can be configured to suit business needs.
 
 <img width="764" alt="Screenshot 2024-03-14 at 10 50 16 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/42739ca8-cdc9-408b-aa2c-a18f43336e67">
+
+### 3. Park Assignments: This is a group used in the Solutions Workforce Project. 
+
+ * Contains the various web maps and layers that maintenance staff will need access to. This is where you would add members to the group and where you can add new items.
+
+<img width="680" alt="Screenshot 2024-03-14 at 10 58 53 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/ab279621-f892-44f6-ba0d-3835afb6343c">
+
+ * The Parks and Grounds Assignment Feature laayer is used to store assignments and workers for use in the Parks and Grounds Assignment Workforce project.
+
+ * Internal staff also have access to submit internal requests for maintenance. For a better visual of the Park Assignment Group, I've attached a screenshot of the directory, so you can see what feature layers on on each web map.
+
+<img width="430" alt="Screenshot 2024-03-14 at 11 04 35 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/993f1904-ae02-4d7d-876a-bdd1eb2c9c6f">
+
+### 4. Parks and Grounds Management Center:
 
 
 
