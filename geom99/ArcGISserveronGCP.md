@@ -92,7 +92,7 @@ There are two options for shutting down a VM:
   ![image](https://github.com/lowylori/technicallogs/assets/49323685/19aade44-55b6-4c2b-ae28-0b8926422339)
 
 
-## Create a Web Map on ArcGIS Online using published Services
+## Create a Web Map on ArcGIS Online using published Services [03/16/24 5 mins]
 
 * Open ArcGIS Rest Services and access a published service.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/6b342953-9bc1-4edf-9d64-18c4e95c2efc)
@@ -105,5 +105,12 @@ There are two options for shutting down a VM:
 
 
 ## Publish a map service into your ArcGIS Server on your GCP VM
+
+* Open ArcGIS Pro
+* Create a map using a copy of the Canada.shp file which is also stored on the VM.
+* Style the shapefile to suite your needs.
+* Shave Project
+* Add new server connection by going to the insert panel along the top bar, selection the connections drop down
+![image](https://github.com/lowylori/technicallogs/assets/49323685/36c0ae8d-d7ba-4bf0-a379-aff2b125a3cf)
 
 
