@@ -14,6 +14,8 @@ Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 - [ ] Create VM from image
 - [ ] Firewall Rules
 - [ ] Run from remote desktop
+- [ ] Create a Web Map on ArcGIS Online using published Services
+- [ ] publish a map service into your ArcGIS Server on your GCP VM
 
 ## Create gmail account and get credits [03/07/24 20 mins]
 
@@ -52,4 +54,18 @@ Set windows password from VM instances>under connect column. Set username to stu
 
 > [!NOTE]
 > this password only shows once, make sure you copy into notepad.
+
+## Create a Web Map on ArcGIS Online using published Services
+
+Open ArcGIS Rest Services and access a published service.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/6b342953-9bc1-4edf-9d64-18c4e95c2efc)
+
+Locate the desired Serivce you would like to use in a webmap. Along the 'View In' horizontal bar, select 'ArcGIS Online Map Viewer
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e36f6551-527f-4f73-b79e-c8038c55c260)
+
+Sign into your account on AGOL in the new tab that opens. Save map.
+
+## Publish a map service into your ArcGIS Server on your GCP VM
+
 
