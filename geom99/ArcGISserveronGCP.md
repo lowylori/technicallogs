@@ -19,41 +19,72 @@ Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 
 ## Create gmail account and get credits [03/07/24 20 mins]
 
-Sign up for a gmail account, creating an email address and password. 
-
-Get and redeem organization credits. https://cloud.google.com/billing/docs/how-to/edu-grants#redeem
+* Sign up for a gmail account, creating an email address and password. 
+* Get and redeem organization credits. https://cloud.google.com/billing/docs/how-to/edu-grants#redeem
 
 ## Create VM from image [03/07/24 20 mins]
 
-Navigate to console.cloud.google.com. Sign in to your gmail account
-
-Select the project dropdown in the top left corner. Then select 'new project'. Set a name for this project.
-
-Go to Compute Engine> VM instances and enable Compute Engine API.
-
-Click 'Create Instance'. This will open the configuration for a new VM instance
+* Navigate to console.cloud.google.com. Sign in to your gmail account
+* Select the project dropdown in the top left corner. Then select 'new project'. Set a name for this project.
+* Go to Compute Engine> VM instances and enable Compute Engine API.
+* Click 'Create Instance'. This will open the configuration for a new VM instance
 
 <img width="995" alt="Screenshot 2024-03-14 at 7 47 51 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/d8a5df55-8759-41b9-8ae2-66ac8bd67315">
 
-Choose Region and zone (used default Iowa).
-Set Machine configuration (used E2).
-In firewall settings, allow for both HTTP and HTTPS traffic.
+* Choose Region and zone (used default Iowa).
+* Set Machine configuration (used E2).
+* In firewall settings, allow for both HTTP and HTTPS traffic.
 
 > [!NOTE]
 > for Boot disk, used a custom image from arcgis-server-374520 for GEOM 99, which has ArcGIS server already installed.
 
-Click 'Create'
+* Click 'Create'
 
-## Firewall Rules
-
-Create Firewall Rule by going to 'Set up firewall rules'. Set name and create the rule for TCP port 444
-
-
-
-Set windows password from VM instances>under connect column. Set username to student and copy generated password
+* Once the VM has been created, set windows password from VM instances under the connect column. Set username to student and copy generated password.
 
 > [!NOTE]
 > this password only shows once, make sure you copy into notepad.
+
+## Firewall Rules
+
+* Create Firewall Rule by going to 'Set up firewall rules'. 
+* Set name as flemingrdp444. Under targets, select all instances in the network. As the source filter, use IPv4 ranges and set the ip address or use no restriction (0.0.0.0/0).
+* Under protocols and ports, select Specified protocols and ports. Enter port 444. This is the remote desktop protocol port.
+* Click Create to finalize the settings
+
+Set up a GCP Firewall rule to allow ArcGIS Server Management ports
+
+* Create Firewall Rule by going to 'Set up firewall rules'. 
+* Set name as flemingrdp444. Under targets, select all instances in the network. As the source filter, use IPv4 ranges and set the ip address or use no restriction (0.0.0.0/0).
+* Under protocols and ports, select Specified protocols and ports. Enter ports 6443, 6080. Click create.
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/84a3f30a-a05c-4fca-aece-f9de0a67a792)
+
+Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
+
+* log into remote desktop using your external IP address and username and password. Make sure your instance is running
+* from the start menu, find 'Windows Defender Firewall'. Select advanced settings from the left panel to open this window.
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/b36219b3-8a03-46b0-81af-d08f45d2854c)
+
+* Select 'Inbound Rules from the left pannel, then 'New Rule...' from the right panel.
+*  For rule type, select Port.
+*  In potocol and ports chose TCP and enter the ports 6443 and 6080. Click next.
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/850c0885-6860-41a0-b0d1-bae14a55649b)
+
+* leave the default 'Allow the connection', click next.
+* allow the rule to apply to domain, private and public. click next.
+* on the last page, name the rile 'ArcGIS Server Admin Ports'
+
+## Shut down a VM on GCP
+
+There are two options:
+* From remote desktop, go to the start menu. Select the power button and click shut down.
+* From console.cloud.google.com go to computing engine > VM instances. Click the three dots on the far right of your active VM. Choose the 'Stop' option.
+  ![image](https://github.com/lowylori/technicallogs/assets/49323685/19aade44-55b6-4c2b-ae28-0b8926422339)
+
+
 
 ## Create a Web Map on ArcGIS Online using published Services
 
