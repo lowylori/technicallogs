@@ -10,14 +10,14 @@ Total Time: 20 mins
 Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 
 ### Steps:
-- [ ] Create gmail account and get credits
-- [ ] Create VM from image
-- [ ] Firewall Rules
-- [ ] Run from remote desktop
-- [ ] Create a Web Map on ArcGIS Online using published Services
-- [ ] publish a map service into your ArcGIS Server on your GCP VM
+- [x] Create gmail account and get credits [5 mins]
+- [x] Create VM from image [20mins]
+- [x] Firewall Rules [10 mins]
+- [x] Run from remote desktop and Shutting down VM [5 mins]
+- [x] Create a Web Map on ArcGIS Online using published Services [5 mins]
+- [ ] Publish a map service into your ArcGIS Server on your GCP VM [15 mins]
 
-## Create gmail account and get credits [03/07/24 20 mins]
+## Create gmail account and get credits [03/07/24 5 mins]
 
 * Sign up for a gmail account, creating an email address and password. 
 * Get and redeem organization credits. https://cloud.google.com/billing/docs/how-to/edu-grants#redeem
@@ -45,7 +45,7 @@ Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 > [!NOTE]
 > this password only shows once, make sure you copy into notepad.
 
-## Firewall Rules
+## Firewall Rules [03/08/24 10 mins]
 
 * Create Firewall Rule by going to 'Set up firewall rules'. 
 * Set name as flemingrdp444. Under targets, select all instances in the network. As the source filter, use IPv4 ranges and set the ip address or use no restriction (0.0.0.0/0).
@@ -77,25 +77,32 @@ Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
 * allow the rule to apply to domain, private and public. click next.
 * on the last page, name the rile 'ArcGIS Server Admin Ports'
 
-## Shut down a VM on GCP
+## Log in to Remote Desktop and Shut down a VM [03/07/24 5 mins]
 
-There are two options:
+Log in to Remote Desktio:
+* From console.cloud.google go to Computing Engine> VM instances. Click the three dots on the far right for your VM and select start.
+* once the VM is started, a new External IP will be generated. Copy this IP.
+* From the windows start menu, search remote desktop. Open the application.
+* paste your external ip address in, colon, port # (444)
+* this will prompt for a username and password.
+
+There are two options for shutting down a VM:
 * From remote desktop, go to the start menu. Select the power button and click shut down.
 * From console.cloud.google.com go to computing engine > VM instances. Click the three dots on the far right of your active VM. Choose the 'Stop' option.
   ![image](https://github.com/lowylori/technicallogs/assets/49323685/19aade44-55b6-4c2b-ae28-0b8926422339)
 
 
-
 ## Create a Web Map on ArcGIS Online using published Services
 
-Open ArcGIS Rest Services and access a published service.
+* Open ArcGIS Rest Services and access a published service.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/6b342953-9bc1-4edf-9d64-18c4e95c2efc)
 
-Locate the desired Serivce you would like to use in a webmap. Along the 'View In' horizontal bar, select 'ArcGIS Online Map Viewer
-
+* Locate the desired Serivce you would like to use in a webmap. Along the 'View In' horizontal bar, select 'ArcGIS Online Map Viewer
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/e36f6551-527f-4f73-b79e-c8038c55c260)
 
-Sign into your account on AGOL in the new tab that opens. Save map.
+* Sign into your account on AGOL in the new tab that opens. Save map to your AGOL account.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/a554022b-1a29-4148-9fe7-57e8022a9bf8)
+
 
 ## Publish a map service into your ArcGIS Server on your GCP VM
 
