@@ -106,11 +106,42 @@ There are two options for shutting down a VM:
 
 ## Publish a map service into your ArcGIS Server on your GCP VM
 
+* Start your VM instance. Ensure your VM is running for the duration of this workflow. If the server is offline, you will not be able to publish
 * Open ArcGIS Pro
 * Create a map using a copy of the Canada.shp file which is also stored on the VM.
+
+> [!NOTE]
+> Ensure you know the location (filepath) of this file on your local computer and on your VM.
+
 * Style the shapefile to suite your needs.
-* Shave Project
+* Save Project
 * Add new server connection by going to the insert panel along the top bar, selection the connections drop down
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/36c0ae8d-d7ba-4bf0-a379-aff2b125a3cf)
 
+* From the 'Add ArcGIS SErver Connection' window, for server URL, enter the external IP address, colon, 6443/arcgis. Enter the ArcGIS server username and log in
+![image](https://github.com/lowylori/technicallogs/assets/49323685/874d8f95-b48e-44f4-80f8-e0b504d6bebe)
+
+* The server connection should now show up in the catalog pane under servers
+* Right click on the ArcGIS server from the catalog pane. Click Publish> Map Service
+* This will open a window where you need to select the map you would like to publish. Use the Canada map we are working on.
+* Give your map a fitting name, summary and tags. For data, use the 'Reference Registered data' option. Select a folder location.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/ea70dd5d-c91c-4ede-9259-b6d45cd9f17a)
+
+  
+* Click analyze at the bottom, this will show you if you have any errors or warnings. Address the following 2 errors:
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d5d7b9fd-5679-46d3-9417-9c16f11f1ab1)
+
+* For the IDs not assigned, click the 3 dots beside it and choose the option that auto assigns IDs sequencially.
+* To register data source for the server, select the 3 dots and click regester data source with server.
+* Copy and paste you filepaths that point to where the canada.shp file is stored. Set a name. Click 'Create'
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e611fdb8-7ef4-4c68-860c-c56920400809)
+
+* Now that your important errors and warnings have been resolved, you can reanalyze one last time and publish.
+
+* After you get the confirmation that the Map Service was published, you can go to ArcGIS rest service to ensure your map is there.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/8e1f1075-1a1c-4731-bcb2-92c0c1454ed0)
+
+* You can select to view in ArcGIS Map Viewer to see your published map.
+
+  
 
