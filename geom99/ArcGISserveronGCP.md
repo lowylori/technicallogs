@@ -79,17 +79,17 @@ Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
 
 ## Log in to Remote Desktop and Shut down a VM [03/07/24 5 mins]
 
-Log in to Remote Desktio:
+### Log in to Remote Desktio:
 * From console.cloud.google go to Computing Engine> VM instances. Click the three dots on the far right for your VM and select start.
 * once the VM is started, a new External IP will be generated. Copy this IP.
 * From the windows start menu, search remote desktop. Open the application.
 * paste your external ip address in, colon, port # (444)
 * this will prompt for a username and password.
 
-There are two options for shutting down a VM:
+### There are two options for shutting down a VM:
 * From remote desktop, go to the start menu. Select the power button and click shut down.
 * From console.cloud.google.com go to computing engine > VM instances. Click the three dots on the far right of your active VM. Choose the 'Stop' option.
-  ![image](https://github.com/lowylori/technicallogs/assets/49323685/19aade44-55b6-4c2b-ae28-0b8926422339)
+![image](https://github.com/lowylori/technicallogs/assets/49323685/19aade44-55b6-4c2b-ae28-0b8926422339)
 
 
 ## Create a Web Map on ArcGIS Online using published Services [03/16/24 5 mins]
@@ -118,7 +118,8 @@ There are two options for shutting down a VM:
 * Add new server connection by going to the insert panel along the top bar, selection the connections drop down
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/36c0ae8d-d7ba-4bf0-a379-aff2b125a3cf)
 
-* From the 'Add ArcGIS SErver Connection' window, for server URL, enter the external IP address, colon, 6443/arcgis. Enter the ArcGIS server username and log in
+* From the 'Add ArcGIS SErver Connection' window, for server URL, enter the external IP address, colon, 6443/arcgis. Enter the ArcGIS server username and log in.
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/874d8f95-b48e-44f4-80f8-e0b504d6bebe)
 
 * The server connection should now show up in the catalog pane under servers
