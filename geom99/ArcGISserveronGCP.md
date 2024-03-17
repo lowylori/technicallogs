@@ -15,7 +15,7 @@ Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 - [x] Firewall Rules [10 mins]
 - [x] Run from remote desktop and Shutting down VM [5 mins]
 - [x] Create a Web Map on ArcGIS Online using published Services [5 mins]
-- [ ] Publish a map service into your ArcGIS Server on your GCP VM [15 mins]
+- [ ] Publish a map service into your ArcGIS Server on your GCP VM [30 mins]
 
 ## Create gmail account and get credits [03/07/24 5 mins]
 
@@ -104,7 +104,7 @@ There are two options for shutting down a VM:
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/a554022b-1a29-4148-9fe7-57e8022a9bf8)
 
 
-## Publish a map service into your ArcGIS Server on your GCP VM
+## Publish a map service into your ArcGIS Server on your GCP VM [03/16/24 30 mins]
 
 * Start your VM instance. Ensure your VM is running for the duration of this workflow. If the server is offline, you will not be able to publish
 * Open ArcGIS Pro
