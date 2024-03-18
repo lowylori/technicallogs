@@ -143,6 +143,6 @@ Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/8e1f1075-1a1c-4731-bcb2-92c0c1454ed0)
 
 * You can select to view in ArcGIS Map Viewer to see your published map.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/61a36822-4a3c-4099-b8f6-bde3dda1cdc0)
 
-  
 
