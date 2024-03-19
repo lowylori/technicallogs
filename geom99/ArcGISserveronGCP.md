@@ -15,7 +15,8 @@ Reference Links: https://www.youtube.com/watch?v=dyFeyBX9jIY
 - [x] Firewall Rules [10 mins]
 - [x] Run from remote desktop and Shutting down VM [5 mins]
 - [x] Create a Web Map on ArcGIS Online using published Services [5 mins]
-- [ ] Publish a map service into your ArcGIS Server on your GCP VM [30 mins]
+- [x] Publish a map service into your ArcGIS Server on your GCP VM [30 mins]
+- [x] DuckDNS and create an SSL certificate [20 mins]
 
 ## Create gmail account and get credits [03/07/24 5 mins]
 
@@ -145,4 +146,24 @@ Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
 * You can select to view in ArcGIS Map Viewer to see your published map.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/61a36822-4a3c-4099-b8f6-bde3dda1cdc0)
 
+## DuckDNS and create an SSL certificate [03/19/24 20 mins]
 
+* Go to www.duckdns.org
+* Create an account or use your google account to sign in
+* create a domain name and click the 'add domain' button
+* <img width="1154" alt="Screenshot 2024-03-19 at 8 25 15 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/0055012c-88e9-4b17-aa60-60dcb28ab309">
+
+* Start running your VM instance on GCP. Copy your external IP address.
+* paste it into the current ip column for the newly created domain.
+* Test it out by opening the url in a new browser window
+
+<img width="1082" alt="Screenshot 2024-03-19 at 8 38 17 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/00e6a5c1-3283-400d-b1e8-c83c972fb68b">
+
+### SSL Certificate
+
+* using your new domain, log into remote desktop. enter username and pw
+* from a browser, download win-acme
+* once downladed, unzip the file
+* open the wacs.exe file
+* choose to run (windows warning)
+* 
