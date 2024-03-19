@@ -159,11 +159,43 @@ Setting a Windows Firewall Rile to allow ArcGIS Server Management ports
 
 <img width="1082" alt="Screenshot 2024-03-19 at 8 38 17 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/00e6a5c1-3283-400d-b1e8-c83c972fb68b">
 
+> [!NOTE]
+> Each time you start a new VM instance, you need to paste your current external IP address into the duckdns domain.
+
 ### SSL Certificate
 
 * using your new domain, log into remote desktop. enter username and pw
+  
+* Search IIS (Internet Information Services Manager) from the start menu
+* Go to GEOM99AGS2024, click the dropdown and select 'sites'
+* choose default web site
+![image](https://github.com/lowylori/technicallogs/assets/49323685/ce19c1ff-df1e-4db7-bcd4-1aaad9b37fd6)
+
+* On the right panel, choose 'Bindings...'
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d443bd91-6901-480a-8e85-fe8f66584034)
+
+* Select https and enter your domain name as the host name. Click 'OK'.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/03e7ddac-45f2-44f8-ad84-b118c937a5f2)
+
 * from a browser, download win-acme
 * once downladed, unzip the file
-* open the wacs.exe file
-* choose to run (windows warning)
-* 
+* open the wacs.exe file as an administrator
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e7d0f1a3-dc57-448a-bd0f-7e9ec00f2df2)
+
+* A commandline window will open up with menu options. choose menu item 'n' for create certificate
+* For site identifiers, enter '1' for default website
+![image](https://github.com/lowylori/technicallogs/assets/49323685/b60aef14-cc2f-49e9-9b66-ccf165e8f841)
+
+* for binding identifiers, pick 'a' for all bindings.
+* continue with this selection 'y' or enter key
+* open in default application 'n' or enter key (open terms of service)
+* agree with terms of service 'y' or enter key
+* enter your email for notifications about problems
+![image](https://github.com/lowylori/technicallogs/assets/49323685/4cb7efba-88a4-44ee-a94f-95309c6f4361)
+
+* Certificate is created
+![image](https://github.com/lowylori/technicallogs/assets/49323685/4fe5f198-8ad5-49ff-82cf-ef49d173f934)
+
+* Go test out your site on a new browser. There should be a lock to signify that the certificate exists and the site is secure.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/ecacae4a-cb30-4fa1-8638-caaee92818ac)
+
