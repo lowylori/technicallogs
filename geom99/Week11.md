@@ -16,7 +16,7 @@ Reference Links:
 - [ ] Automate with FME
 
 ## KoboToolbox [03/21/24 30 mins]
-An alternative to Survey123. Not necessarily open source, however they do offer a free community plan for educational institutions.
+An alternative to Survey123. Advertized as open source, however they do offer a free community plan for educational institutions and also paid plans.
 <img width="1070" alt="Screenshot 2024-03-21 at 12 44 40 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/554d3fe9-e62f-4982-9b6c-9c32d9e4bed1">
 
 * Create an account on KoboToolBox
