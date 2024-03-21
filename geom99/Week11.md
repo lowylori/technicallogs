@@ -101,6 +101,13 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 * Decide if you like it. I'm not a fan of this tile layer for this area. I'm going to change mine
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/69a71536-9d1c-4dd5-9c24-de4a56a60d2d)
 
+* New tile layer
+![image](https://github.com/lowylori/technicallogs/assets/49323685/b8d89447-b25b-43f1-ab78-a6d00fc790ab)
+
+* Customization of marker settings: using the var markerOptions, you can set a title, whether the marker is clickable and draggable, additionally you can add a custom marker icon.
+* You can bind a popup to a marker.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/513a1f8e-afc1-4b93-a73f-0cf9db4aa906)
+
 
 ## Task num [00/00/24 time]
 
