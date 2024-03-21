@@ -11,7 +11,7 @@ Reference Links: https://leafletjs.com/examples/quick-start/
 
 ### Steps:
 - [x] KoboToolbox [30 mins]
-- [ ] Leaflet Javascript API [45 mins]
+- [x] Leaflet Javascript API [45 mins]
 - [ ] Data Tier (Map Tiles, GeoJSON)
 - [ ] Automate with FME
 
