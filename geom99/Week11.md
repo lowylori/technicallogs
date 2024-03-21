@@ -65,6 +65,14 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 ## LEaflet - Web Tier [03/21/24 45 mins]
 
 * Created github repo 'lowylori/leaflet'
+* Create a new file called 'samplemap.html'
+* set up doctype html
+* In the head section, link to leaflet css file and the leaflet JS file.
+* Create a div to hold the map
+* style the map div to have a set height
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e93325bc-aba6-447f-a492-0ba6381728c7)
+
+* 
 
 ## Task num [00/00/24 time]
 
