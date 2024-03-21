@@ -10,8 +10,8 @@ Total Time: 3 hrs
 Reference Links: https://leafletjs.com/examples/quick-start/
 
 ### Steps:
-- [ ] KoboToolbox
-- [ ] Leaflet Javascript API
+- [x] KoboToolbox [30 mins]
+- [ ] Leaflet Javascript API [45 mins]
 - [ ] Data Tier (Map Tiles, GeoJSON)
 - [ ] Automate with FME
 
@@ -72,7 +72,12 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 * style the map div to have a set height
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/e93325bc-aba6-447f-a492-0ba6381728c7)
 
-* 
+* make a script tag below the map div
+* initate the map and set the center point and zoom level
+![image](https://github.com/lowylori/technicallogs/assets/49323685/1ddd5ec6-2b7b-405e-860d-f27844161116)
+
+* add a open streets map tile layer to the map
+![image](https://github.com/lowylori/technicallogs/assets/49323685/847e4adb-aeb4-4be4-8cc7-637c5364e1e0)
 
 ## Task num [00/00/24 time]
 
