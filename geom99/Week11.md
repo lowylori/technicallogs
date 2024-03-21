@@ -62,7 +62,7 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 <img width="949" alt="Screenshot 2024-03-21 at 1 05 27 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/b8d23345-3b01-45f7-8b9f-5a02c451172c">
 
 
-## LEaflet - Web Tier [03/21/24 45 mins]
+## Leaflet - Web Tier [03/21/24 45 mins]
 
 * Created github repo 'lowylori/leaflet'
 * Create a new file called 'samplemap.html'
@@ -70,7 +70,9 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 * In the head section, link to leaflet css file and the leaflet JS file.
 * Create a div to hold the map
 * style the map div to have a set height
-![image](https://github.com/lowylori/technicallogs/assets/49323685/e93325bc-aba6-447f-a492-0ba6381728c7)
+![image](https://github.com/lowylori/technicallogs/assets/49323685/3e75a75c-76c7-4345-be90-66849778b2a7)
+
+
 
 * make a script tag below the map div
 * initate the map and set the center point and zoom level
@@ -78,6 +80,27 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 
 * add a open streets map tile layer to the map
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/847e4adb-aeb4-4be4-8cc7-637c5364e1e0)
+
+* Check out your layer by going to the github page
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d463ff59-1b0b-4bd9-8d5c-0f37f79b8851)
+
+* Make a copy of the html sample map. Use it for the next example to add markers.
+
+### Add Marker
+* I made some small changes first to the set up of the sample map. I configured the map options seperately and changed the center location to Southern Africa Wildlife College.
+* I used those map options to initalize the map
+![image](https://github.com/lowylori/technicallogs/assets/49323685/b0b7e70c-34ed-46e9-a9a0-316531e7fa89)
+
+* I also made the layer set up more clear. First created a new osm tile layer then added it to the map. Now ready to add the marker.
+* Create a new marker with location and add to the map.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d4c2f235-0b80-43eb-94e1-0a2bd179e6b8)
+
+* Check out your map
+![image](https://github.com/lowylori/technicallogs/assets/49323685/4e070818-7829-4994-99f6-47d3a134be12)
+
+* Decide if you like it. I'm not a fan of this tile layer for this area. I'm going to change mine
+![image](https://github.com/lowylori/technicallogs/assets/49323685/69a71536-9d1c-4dd5-9c24-de4a56a60d2d)
+
 
 ## Task num [00/00/24 time]
 
