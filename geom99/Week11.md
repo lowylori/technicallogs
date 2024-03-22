@@ -15,7 +15,7 @@ https://www.esri.com/arcgis-blog/products/survey123/field-mobility/survey123-mic
 - [x] KoboToolbox [30 mins]
 - [x] Leaflet Javascript API [45 mins]
 - [x] Creating a survey on survey123 [20 mins]
-- [X] Task Managment Solutions and automation [60 mins]
+- [X] Task Managment Solutions and automation [80 mins]
 
 
 ## KoboToolbox [03/21/24 30 mins]
@@ -180,7 +180,25 @@ Flow enables you to generate a customized workflow. Connects to Survey123. There
 
 * Now you can add conditions and logic
 * This step will depend on the configuration of your survey. I had to go back, because my survey didn't have a priority level and I wanted to configure that.
-* 
+* I set a condition based off the response on priority level = high
+<img width="621" alt="Screenshot 2024-03-21 at 10 51 29 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/a05de207-c8eb-4869-aeea-7fae6baa551b">
+
+* If this condition evaluates to True, then it will create a task.
+<img width="647" alt="Screenshot 2024-03-21 at 10 52 38 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/27c121da-5e07-4ae7-8e9d-f88833c6ecd5">
+
+* There are a lot more planner options you can use from this interface. For the sake of testing, I kept this flow very simple. I plan to build on it later.
+<img width="597" alt="Screenshot 2024-03-21 at 10 54 18 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/87ea6e91-c93a-4558-816e-fefd782650bc">
+
+* Hit save at the bottom of the page. Now that its set up, we can test it.
+* Click the test button in the top right corner, select manual test.
+* Open survey123, and complete the survey with the priority level set to high.
+* switch back to Flow and check the result.
+* Test ran successfully
+<img width="1186" alt="Screenshot 2024-03-21 at 10 58 49 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/52056785-e93f-477a-8af4-ba9440f66c1f">
+
+
+
+<img width="1187" alt="Screenshot 2024-03-21 at 10 57 45 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/5553a7a2-0627-441a-8ab4-41bfc349d41b">
 
 ## Task num [00/00/24 time]
 
