@@ -115,6 +115,19 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 ## Creating a survey on Survey123 Connect [03/21/24 20mins]
 
 Need to create a survey for the next tast (task managment with microsoft flow)
+* Install survey123 connect, if you don't already have it on your desktop.
+* Sign into your organization account.
+* Click create new survey in the top left corner
+* Set a title and choose a template. Click create survey
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d4d8fe7f-36a2-4cdb-b7b9-2285d799b551)
+
+* An Excel spredsheet and preview will open up in survey123
+* Use the spreadsheet to create survey questions using the type, name and label column. Set any additional fields that you find necessary, ie 
+![image](https://github.com/lowylori/technicallogs/assets/49323685/075a3cc4-a67e-4b9b-94f0-222f1efda144)
+
+* This survey can be modified further to include more info such as contact, attachment etc.
+* Click publish on the left panel
+![image](https://github.com/lowylori/technicallogs/assets/49323685/4f409aec-ccb3-4ac0-a9f9-a51a56eacf54)
 
 
 ## Task Management Solutions [03/21/24 30mins]
