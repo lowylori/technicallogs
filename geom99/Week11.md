@@ -7,12 +7,14 @@ Date: Mar 20/24
 
 Total Time: 3 hrs
 
-Reference Links: https://leafletjs.com/examples/quick-start/
+Reference Links: 
+https://leafletjs.com/examples/quick-start/
+https://www.esri.com/arcgis-blog/products/survey123/field-mobility/survey123-microsoft-flow/
 
 ### Steps:
 - [x] KoboToolbox [30 mins]
 - [x] Leaflet Javascript API [45 mins]
-- [ ] Task Managment Solutions [30 mins]
+- [X] Task Managment Solutions [60 mins]
 - [ ] Automate with FME 
 
 ## KoboToolbox [03/21/24 30 mins]
@@ -140,6 +142,26 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 
 * Chart View
 <img width="829" alt="Screenshot 2024-03-21 at 8 56 25 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/ef42b386-7f10-4a0f-a4dd-3988b36b237e">
+
+### Flow (Microsoft 365)
+
+Flow enables you to generate a customized workflow. Connects to Survey123. There is an option for email connectors based on set conditions. IE. IF priority level = high, send email.
+
+* Sign into your Microsoft 365 account
+* In apps, search for Flow
+* Select new flow, and choose 'automate cloud flow'
+<img width="925" alt="Screenshot 2024-03-21 at 9 19 24 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/c89f680c-b84f-45ef-bf06-0c8bf2b425f3">
+
+* Enter a name and choose the flow's trigger to be 'Survey123', when a survey response is submitted.
+<img width="902" alt="Screenshot 2024-03-21 at 9 20 15 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/8db08fab-bedf-4b8b-b8c1-e545151aa5d8">
+
+* You have to sign into your AGOL account to use this flow. You will be prompted to connect to AGOL and allow access.
+* Once its connected, you can configure the parameters. You can decide what info is included and choose your premade survey stored in your AGOL account using survey123. Collapse the panel when you've completed the parameters.
+<img width="589" alt="Screenshot 2024-03-21 at 9 22 15 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/391fdc68-ec69-45c7-81aa-8960caf0c071">
+
+* Now you can add conditions and logic
+* This step will depend on the configuration of your survey. I had to go back, because my survey didn't have a priority level and I wanted to configure that.
+* 
 
 ## Task num [00/00/24 time]
 
