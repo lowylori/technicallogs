@@ -14,8 +14,9 @@ https://www.esri.com/arcgis-blog/products/survey123/field-mobility/survey123-mic
 ### Steps:
 - [x] KoboToolbox [30 mins]
 - [x] Leaflet Javascript API [45 mins]
-- [X] Task Managment Solutions [60 mins]
-- [ ] Automate with FME 
+- [ ] Creating a survey on survey123 [20 mins]
+- [X] Task Managment Solutions and automation [60 mins]
+
 
 ## KoboToolbox [03/21/24 30 mins]
 An alternative to Survey123. Advertized as open source, however they do offer a free community plan for educational institutions and also paid plans.
@@ -109,6 +110,11 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 * Customization of marker settings: using the var markerOptions, you can set a title, whether the marker is clickable and draggable, additionally you can add a custom marker icon.
 * You can bind a popup to a marker. Now when you click on the marker, a message will pop up. Adding the title attribute to the markerOptions setting will give a message when you hover over the point.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/513a1f8e-afc1-4b93-a73f-0cf9db4aa906)
+
+
+## Creating a survey on Survey123 Connect [03/21/24 20mins]
+
+Need to create a survey for the next tast (task managment with microsoft flow)
 
 
 ## Task Management Solutions [03/21/24 30mins]
