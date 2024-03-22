@@ -1,7 +1,7 @@
 # Week 11 Log
 ### Summary
 
-Description: Exploring some open source solutions. 
+Description: Exploring some open source solutions, survey123 and task management with microsoft.
 
 Date: Mar 20/24
 
