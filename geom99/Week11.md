@@ -130,7 +130,7 @@ Need to create a survey for the next tast (task managment with microsoft flow)
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/4f409aec-ccb3-4ac0-a9f9-a51a56eacf54)
 
 
-## Task Management Solutions [03/21/24 30mins]
+## Task Management Solutions [03/21/24 80mins]
 
 * Need to explore alternatives to Workforce. Looking for a task managment system thats easy to use, possibly free with many users, can maybe connect with the AGOL ecosystem (although not a requirement)
 
@@ -196,14 +196,5 @@ Flow enables you to generate a customized workflow. Connects to Survey123. There
 * Test ran successfully
 <img width="1186" alt="Screenshot 2024-03-21 at 10 58 49 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/52056785-e93f-477a-8af4-ba9440f66c1f">
 
+* Although it says that test was successful, more testing is required.
 
-
-<img width="1187" alt="Screenshot 2024-03-21 at 10 57 45 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/5553a7a2-0627-441a-8ab4-41bfc349d41b">
-
-## Task num [00/00/24 time]
-
-Desc
-
-## Task num [00/00/24 time]
-
-Desc
