@@ -12,8 +12,8 @@ Reference Links: https://leafletjs.com/examples/quick-start/
 ### Steps:
 - [x] KoboToolbox [30 mins]
 - [x] Leaflet Javascript API [45 mins]
-- [ ] Data Tier (Map Tiles, GeoJSON)
-- [ ] Automate with FME
+- [ ] Task Managment Solutions [30 mins]
+- [ ] Automate with FME 
 
 ## KoboToolbox [03/21/24 30 mins]
 An alternative to Survey123. Advertized as open source, however they do offer a free community plan for educational institutions and also paid plans.
@@ -105,13 +105,41 @@ An alternative to Survey123. Advertized as open source, however they do offer a 
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/b8d89447-b25b-43f1-ab78-a6d00fc790ab)
 
 * Customization of marker settings: using the var markerOptions, you can set a title, whether the marker is clickable and draggable, additionally you can add a custom marker icon.
-* You can bind a popup to a marker.
+* You can bind a popup to a marker. Now when you click on the marker, a message will pop up. Adding the title attribute to the markerOptions setting will give a message when you hover over the point.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/513a1f8e-afc1-4b93-a73f-0cf9db4aa906)
 
 
-## Task num [00/00/24 time]
+## Task Management Solutions [03/21/24 30mins]
 
-Desc
+* Need to explore alternatives to Workforce. Looking for a task managment system thats easy to use, possibly free with many users, can maybe connect with the AGOL ecosystem (although not a requirement)
+
+### Tasks by Planner and To Do (Application in Microsoft Teams)
+* Sign into Teams on your Application
+* Select the apps option in the left panel
+* Search for 'tasks by planner and to do'
+* Click add
+* Open up the application within teams. Along the left pannel, there are several options. 
+<img width="650" alt="Screenshot 2024-03-21 at 8 21 56 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/c276e29d-2360-4b49-a029-232b9a526476">
+
+* In the Assigned to me option, select 'Create a list'
+* Input a name and choose where to create in. You have the option to select a premade team.
+* if you want to be able to assign tasks to others, you have to use a team.
+* Click Create
+* Once you create the list, you can start creating tasks and assigning it to members of the team
+
+<img width="804" alt="Screenshot 2024-03-21 at 8 41 04 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/11dd2422-4c12-4ec8-91da-e5ffd426ab0e">
+
+* You can click the task to configure more options such as importance, label, progress, start date, due date, a checklist, attachment and comments. You can also assign a task to multiple people.
+<img width="771" alt="Screenshot 2024-03-21 at 8 42 22 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/96dff346-6f76-43bd-a343-3ff443fb5167">
+
+* Once tasks are created you can view them as a list, board, chart or schedule. 
+<img width="1048" alt="Screenshot 2024-03-21 at 8 50 02 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/7b804dac-4106-473d-bddb-f985d19d7cdb">
+
+* Board View
+<img width="837" alt="Screenshot 2024-03-21 at 8 51 07 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/834a226e-d2b0-4262-85e8-61a08e0a0938">
+
+* Chart View
+<img width="829" alt="Screenshot 2024-03-21 at 8 56 25 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/ef42b386-7f10-4a0f-a4dd-3988b36b237e">
 
 ## Task num [00/00/24 time]
 
