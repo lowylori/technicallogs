@@ -14,7 +14,7 @@ https://www.esri.com/arcgis-blog/products/survey123/field-mobility/survey123-mic
 ### Steps:
 - [x] KoboToolbox [30 mins]
 - [x] Leaflet Javascript API [45 mins]
-- [ ] Creating a survey on survey123 [20 mins]
+- [x] Creating a survey on survey123 [20 mins]
 - [X] Task Managment Solutions and automation [60 mins]
 
 
