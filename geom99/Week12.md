@@ -22,6 +22,7 @@ Reference Links:
 After working with the Survey123 webhook for microsoft flow, I realized that certain features may be more accessible depending on the datatype. I want to be able to extract the lat and long from the locaation point. With the location saved as an esripointz type, I cannot access it using flow. Additionally I want to allow for photo attachments.
 
 * Current survey:
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/5b7e4272-244a-490a-bc44-b45db9a5e55b)
 
 ### Modify the survey
@@ -37,9 +38,13 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 * Republish the form
 
 ### Test out the survey
-* check out the survey in AGOL
+* check out the survey in AGOL, open it in a browser window
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/2aec6b55-a2de-4024-b2b5-20ac6241b1b8)
 
+* submit the survey and go back to AGOL and find the Survey123 app. Open your survey and check out the data tab
+* we can see that the x, y, and z are now being stored in separate fields.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/08214c2d-47e1-4683-b857-988bf41e8fd9)
 
 
 ## Task num [00/00/24 time]
