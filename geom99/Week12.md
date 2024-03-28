@@ -12,7 +12,7 @@ Total Time: 3 hrs
 Reference Links:
 
 ### Steps:
-- [ ] Update Survey on Survey 123
+- [ ] Update Survey on Survey 123 [30 mins]
 - [ ] step 2
 - [ ] step 3
 - [ ] step 4
@@ -24,8 +24,23 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 * Current survey:
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/5b7e4272-244a-490a-bc44-b45db9a5e55b)
 
+### Modify the survey
 
-* 
+* Open survey in Survery123 Connect
+* modify the XLS Form to do the following
+  * capture x, y, z of the geopoint in seperate columns to allow the data to be accessed by variable in Flow
+  * created an image attachment field
+  * changed the dataype for priority level to be an esriFieldTypeInterger, instead of string (previous mistake)
+  * set 'General Inspection' to be the default value for reqType for language barriers in the event that the individual skips the question
+![image](https://github.com/lowylori/technicallogs/assets/49323685/285b19ed-1848-4e8a-ac87-1664f0b87c62)
+
+* Republish the form
+
+### Test out the survey
+* check out the survey in AGOL
+![image](https://github.com/lowylori/technicallogs/assets/49323685/2aec6b55-a2de-4024-b2b5-20ac6241b1b8)
+
+
 
 ## Task num [00/00/24 time]
 
