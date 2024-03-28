@@ -12,8 +12,8 @@ Total Time: 3 hrs
 Reference Links:
 
 ### Steps:
-- [ ] Update Survey on Survey 123 [30 mins]
-- [ ] step 2
+- [x] Update Survey on Survey 123 [30 mins]
+- [ ] Microsoft Flow Automation Engine
 - [ ] step 3
 - [ ] step 4
 
@@ -47,9 +47,35 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/08214c2d-47e1-4683-b857-988bf41e8fd9)
 
 
-## Task num [00/00/24 time]
+## Microsoft Flow Power Automation [03/28/24 60 mins]
 
-Desc
+* Sign into your Microsoft 265 account, open app Microsoft Power Automate
+* create new flow, give it a name, and set the trigger to Survey123: when a survey response is submitted
+* connect to your AGOL account if not already connected. Sect the survey you want to use.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/5ead91a5-0934-404b-96fc-6550a3bfa34a)
+
+* Click the pluss button to add an action, choose control> condition
+![image](https://github.com/lowylori/technicallogs/assets/49323685/8428ea99-bd4b-4172-8139-e36951e9b82d)
+
+* use the option to enter data from the previous step (survey) to populate the condition. The condition chosen was when priority level is set to 1
+![image](https://github.com/lowylori/technicallogs/assets/49323685/136d0bee-26de-40cd-9829-6a71b56123a1)
+
+* Add another condition for when the previous control evaluates to false, priority = 2
+![image](https://github.com/lowylori/technicallogs/assets/49323685/006d64a4-5688-4527-b5ad-51e9af1a22df)
+
+* follow the same steps above to add one last condition when the previous evaluates to false, and the new condition is when priority = 3. It should look like this:
+![image](https://github.com/lowylori/technicallogs/assets/49323685/140739cd-cd1a-4d93-86df-8fb73ac73063)
+
+* rename conditions for added clarity.
+* for the first condition, lets set what happens when it evaluates to true
+* click to add an action and evaluate the options using excel
+![image](https://github.com/lowylori/technicallogs/assets/49323685/f7b233d0-4e9b-4e7e-a78b-ef5f31da7c94)
+
+* Lets go outside of this application and create an online worksheet in excel to use for this automation.
+* Create a new Workbook and add 3 sheets, rename sheets: High, Medium, Low. Give the worksheet a name and create headers.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/2cbc54c0-ba18-4630-bafc-d2db534477c3)
+
+
 
 ## Task num [00/00/24 time]
 
