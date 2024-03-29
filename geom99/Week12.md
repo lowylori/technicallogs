@@ -13,7 +13,7 @@ Reference Links:
 
 ### Steps:
 - [x] Update Survey on Survey 123 [30 mins]
-- [ ] Microsoft Flow Automation Engine
+- [ ] Microsoft Flow Automation Engine [120 mins]
 - [ ] step 3
 - [ ] step 4
 
@@ -47,7 +47,7 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/08214c2d-47e1-4683-b857-988bf41e8fd9)
 
 
-## Microsoft Flow Power Automation [03/28/24 60 mins]
+## Microsoft Flow Power Automation [03/28/24 120 mins]
 
 * Sign into your Microsoft 265 account, open app Microsoft Power Automate
 * create new flow, give it a name, and set the trigger to Survey123: when a survey response is submitted
@@ -74,6 +74,67 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 * Lets go outside of this application and create an online worksheet in excel to use for this automation.
 * Create a new Workbook and add 3 sheets, rename sheets: High, Medium, Low. Give the worksheet a name and create headers.
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/2cbc54c0-ba18-4630-bafc-d2db534477c3)
+
+* Back to Power Automate, in add an action for the first condition, choose 'Get worksheet' for Excel Onedrive
+
+> [!WARNING]  
+> You might need permissiongs from admin to make a connection to a workbook if you are using an organizational account. Admin permission was required for me, so I switched to my personal account and recreated the excel document
+> ![image](https://github.com/lowylori/technicallogs/assets/49323685/0770b654-56a9-477c-a2ce-dffaa554446d)
+
+* After recreating the excel document on my personal account, I was able to add it as a connection.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/62405662-4fdb-4a4e-8672-4ab69c705e99)
+
+* Lets add a new action after you get the worksheet.
+* Go into the Excel (onedrive) options and choose add row into a table
+
+> [!NOTE]  
+> Side note, I relalized you need a named 'table' to add a row to rather than a sheet name, so I went back to the excel spreadsheet and added table names for each of the sheets
+
+ * In add row to table, select the workbook, table name and under advance parameters select the fields you want to populate with the survey data. Populate the fields with the corresponding data from the feature attributes of the survey.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/346d00c5-ff2e-42c4-a97f-c35b223833d9)
+
+> [!NOTE]  
+> Unable to access the date metadata, so I will have to go back and add that as a field in the survey later.
+
+* save the sheet and lets test out high priority by making a survey submission. Click the little test tube button top right. Complete the survey with a high priority request.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/17c61a28-5e31-457e-9460-7aa6a3dc7b24)
+
+* We can see the survery fell into the right conditions, hopefully it worked. Time to check the excel sheet. Looks like nothing was added :(
+![image](https://github.com/lowylori/technicallogs/assets/49323685/3cec7942-035e-491e-bb7e-042acace12a0)
+
+* Go back to Flow and see what went wrong. You can view the raw outputs to see if anything went wrong. Looking at the body section, it does look like all the data from the survey was correctly accessed. Lets check the settings.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/58753a03-b0a6-435b-9dc9-46d124bb9a6a)
+
+* There doesn't seem to be ant issues. Lets try creating the medium priority level differently. We can use the update a row instead.
+* Nevermind, update a row only lets you update one column at a time. I think perhaps the issues is that I had the other two conditions empty (incomplete) when I started testing?
+* Lets delete the condition for low priority and build out two. I'm gonna leave out the 'get worksheets' option, because it seems that step isn't necessary.
+* Set up add a row, same as before, but use table 'Medium'
+![image](https://github.com/lowylori/technicallogs/assets/49323685/1efc2240-1109-4d91-966f-1273d69b3cb5)
+
+* When attempting to save, I got an error for having duplicate names for triggers and action names. Went in and renamed everything...
+![image](https://github.com/lowylori/technicallogs/assets/49323685/513cb725-f900-45c7-a74f-c58d1125e811)
+
+* I got another weird error when I tried to save again that didnt really make sense. Since the 'For each 2a and 2b' mentioned in the error were the names of the loops I created for medium priority, I decided to delete those. After deleting it still gives me the same error. A tragic flaw of this system is that if there is an error, you are unable to save.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/9d7f72c4-ad64-4672-8c69-86fc24811200)
+
+* Checked out the parameters for add row into a table high and realized there were some attributes I left blank accidentially. Apparently Flow doesn't like that. Added the values and flow was able to save successfully. I will try to test it again.
+* Completed a survey and went to check the results
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/5a7aa25c-8c26-4e28-9b21-3bcc0e5170c7)
+
+* The message was that the branching conditions failed, and it does show that the prority = 1 condition evaluated to false. Checking the survey data however, shows the priority was set to 1.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/667c8e9c-5e0c-41a9-bb5b-e9396e437dd8)
+
+* Lets  start fresh with a very simple flow. I think the issue might have something to do with using the dynamic data for meta information (ie attachment url and response ID), because these options seem to add a for each loop automatically when they are selected. I'm not sure why, but it might mean that i need to go back to my survey and make some more changes
+* Lets do a new flow, when a survey response is submitted > select survey
+* After its submitted we want to automatically add a row into a table. I set only 4 parameters.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/6ca62775-666a-420f-bc51-83ff32aa5ce4)
+
+* Test says it ran successfully... turns out that the were all running fine, they were just being added in a random location on the excel file
+![image](https://github.com/lowylori/technicallogs/assets/49323685/57d2ff95-b64e-4ba6-b1b0-2f021ec2ab45)
+
+* I will have to investigate further on why that happened. It might have something to do with the way I formated the document
+
 
 
 
