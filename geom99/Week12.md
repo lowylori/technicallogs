@@ -7,15 +7,14 @@ Explore 'made' software, similar to flow, determine which is easier to use for t
 
 Date: Mar 25, 2024
 
-Total Time: 3 hrs
+Total Time: 3.5 hrs
 
 Reference Links:
 
 ### Steps:
 - [x] Update Survey on Survey 123 [30 mins]
-- [ ] Microsoft Flow Automation Engine [120 mins]
-- [ ] step 3
-- [ ] step 4
+- [x] Microsoft Flow Automation Engine [120 mins]
+- [x] Reiterate the same last 2 steps with less mistakes [60 mins]
 
 ## Task num Update Survey on Survey 123 [03/28/24 30 mins]
 
@@ -135,17 +134,20 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 
 * I will have to investigate further on why that happened. It might have something to do with the way I formated the document
 
+### Troubleshooting excel add a row into a table - adds to the bottom
+
+* Selected all the rows in the table below the header and clicked 'clear all'
+![image](https://github.com/lowylori/technicallogs/assets/49323685/03ac7be2-e675-461c-85f7-b279cc444e92)
+
+* Ran the script but it still added to the last line of the table
+* Lets change where I define the table to be
+![image](https://github.com/lowylori/technicallogs/assets/49323685/c6e317c9-5bd4-45da-bf5f-d31f728555b0)
+
+* Changed to A1:K2, resubmit the last run to see where its placed in the excel doc
+* Still showed up at the bottom of the page... Excel online is weird, I feel like that should have resolved the issue, but still, when I click ctrl + 'end' it brings me to line 58. I think the best way to fix is to start a fresh workspace.
 
 
-
-## Task num [00/00/24 time]
+## Reiterate the same last 2 steps with less mistakes [03/28/24 30 mins]
 
 Desc
 
-## Task num [00/00/24 time]
-
-Desc
-
-## Task num [00/00/24 time]
-
-Desc
