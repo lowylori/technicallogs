@@ -2,7 +2,7 @@
 ### Summary
 
 Description: Finalize solution options. Modify survey to meet business needs, try using microsoft flow to automate excel spreadsheets. 
-Explore 'made' software, similar to flow, determine which is easier to use for the client.
+
 
 
 Date: Mar 25, 2024
@@ -196,4 +196,3 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/e70f39d1-a695-4dd4-a136-a446b8ed4790)
 
 
-### Create a new flow on Power Automate
