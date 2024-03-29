@@ -9,7 +9,11 @@ Date: Mar 25, 2024
 
 Total Time: 3.5 hrs
 
-Reference Links:
+Reference Links: N/A
+
+Survey Link: https://fleming.maps.arcgis.com/home/item.html?id=9dcdb3c684fd455491cafe68eaa8d646 (organization only)
+Excel Link: 
+Flow Link:
 
 ### Steps:
 - [x] Update Survey on Survey 123 [30 mins]
@@ -147,7 +151,49 @@ After working with the Survey123 webhook for microsoft flow, I realized that cer
 * Still showed up at the bottom of the page... Excel online is weird, I feel like that should have resolved the issue, but still, when I click ctrl + 'end' it brings me to line 58. I think the best way to fix is to start a fresh workspace.
 
 
-## Reiterate the same last 2 steps with less mistakes [03/28/24 30 mins]
+## Reiterate the same last 2 steps with less mistakes [03/28/24 60 mins]
 
-Desc
+### Survey123 - need the date as a stored feature attribute
 
+* Go back to Survey123 Connect, Grounds Request survey
+* added some extra fields I thought would be helpful
+![image](https://github.com/lowylori/technicallogs/assets/49323685/aa727bce-2096-4dba-8dee-82126e2af89d)
+
+* Re-published survey. 
+
+### Create new excel online doc
+
+* Dont format, only add column names and declare the table
+![image](https://github.com/lowylori/technicallogs/assets/49323685/554a642e-35db-4fa0-a143-dc2d5266e7cb)
+
+### Power Automate
+
+* Go into Power Automate from your organizational account.
+* Turn off previously created flows so it doesnt interfere with testing.
+* Create a new Flow
+![image](https://github.com/lowylori/technicallogs/assets/49323685/23a44d62-50bd-4b6d-ad6f-8c85b0d4e9ae)
+
+* Connect survey to the trigger
+* Create high priority condition
+* If true > action: add a row to a table (excel)
+* set up the params to connect to the new excel file, new table and select the coloumns in advanced parameters that you want to populate. Find the corresponding survey responses.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/dcefa6ab-257e-43fc-98e8-89391dae416e)
+
+* Save the flow and test before we do the other priority settings
+* Flow ran successfully and popped up at the top of the excel sheet (yay) but the date showed up strangely. In one of the advanced params, theres an option to add a datetime format, not sure what that really does, since its not for the field, but ill give it a shot.
+* that didnt seem to fix it. it might be because I didnt set the esri field for it, but I'm going to go ahead with the rest of the flow
+
+* Add Medium Priority Flow - no copy paste type option so this part is fairly manual. Save and test
+![image](https://github.com/lowylori/technicallogs/assets/49323685/c966bcfa-8e76-4381-8dc3-f13e9e7c8dc4)
+
+* Flow was successful.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/8106200d-b43d-4bd1-a75f-c4b58611bc42)
+
+* Add the final flow for low priority. Save and test.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e3d5a292-3ba1-4f77-9c30-002152d8c625)
+
+* Last test was sucessful.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/e70f39d1-a695-4dd4-a136-a446b8ed4790)
+
+
+### Create a new flow on Power Automate
