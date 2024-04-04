@@ -23,6 +23,7 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 * If you don't have a pre-existing survey, you will need to create one. I will be using the Parks and Grounds Request form from the Solution.
 * Find the Item in AGOL content
 * CLick top right, Manage in Survey123 website
+![image](https://github.com/lowylori/technicallogs/assets/49323685/a59ef697-38ff-4b6d-bb54-287050fb024f)
 
 
 
