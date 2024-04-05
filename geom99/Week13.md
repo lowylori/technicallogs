@@ -5,15 +5,15 @@ Description: Exploring report generation using arcgis api for python with survey
 
 Date: April 4, 2024
 
-Total Time: 3hrs
+Total Time: 3.5hrs
 
 Reference Links: https://www.youtube.com/watch?v=dzAbLFVuWiw&t=1700s
 https://github.com/Esri/Survey123-tools/blob/main/Work_with_Reports/create_reports_using_the_arcgis_api_for_python.ipynb
 
 ### Steps:
-- [ ] Report generation with ArcGIS API for Python [60 mins]
-- [ ] Automate workflow with Make [90 mins]
-- [ ] step 3
+- [x] Report generation with ArcGIS API for Python [60 mins]
+- [x] Automate workflow with Make [90 mins]
+- [x] Work on website submission for solution [60 mins]
 
 ## Report generation with ArcGIS API for Python [04/04/24 60 mins]
 
@@ -78,7 +78,7 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 * Unfortunately, from my organizational account, I'm not able to schedule a notebook task... however, I can see if its an option from the seperate developer account that I have.
 * Turns out Notebooks isn't a feature on my dev account, so I will have to come back to this task after speaking to the organizational account admin.
 
-## Automate Workflow with Make [04/04/24 60 mins]
+## Automate Workflow with Make [04/04/24 90 mins]
 
 * Register for a free account with Make
  * https://www.make.com/en/register?
@@ -141,16 +141,16 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 <img width="1083" alt="Screenshot 2024-04-05 at 12 09 57 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/548a6fc4-db67-4d80-9ff1-57fac03636e0">
 
 * Feeling pretty good about this so far, so I'm going to complete the flow by populating the other priority levels.
-* 
+* Setting up the low priority route with condition =3
+<img width="466" alt="Screenshot 2024-04-05 at 12 14 52 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/dd40a18f-5748-449d-9ee2-120e23b7e6b2">
 
-## Task num [00/00/24 time]
+* Now adding a worksheet row with excel, selet the workbook and worksheet to use.
+* Populate all the fields
+<img width="456" alt="Screenshot 2024-04-05 at 12 18 56 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/47343d60-157f-409f-8f00-ccf4d15ea22b">
 
-Desc
+* Here is the completed flow
+<img width="757" alt="Screenshot 2024-04-05 at 12 22 41 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/14beafeb-599a-4f57-a558-55bd5ddba45a">
 
-## Task num [00/00/24 time]
+## Work on website submission for solution [04/04/24 60 mins]
 
-Desc
 
-## Task num [00/00/24 time]
-
-Desc
