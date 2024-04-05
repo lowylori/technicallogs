@@ -151,6 +151,16 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 * Here is the completed flow
 <img width="757" alt="Screenshot 2024-04-05 at 12 22 41 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/14beafeb-599a-4f57-a558-55bd5ddba45a">
 
-## Work on website submission for solution [04/04/24 60 mins]
+## Work on website submission for solution [03/31/24 60 mins] *screenshots to be added
+
+* Created new github repo: sawc
+* added group members as collaborators
+* created general file structor and folders
+* generated a task list for the team and myself to stay on track
+* cloned the repo and added it to visual studio code for easier use.
+* Set up the nav bar on the index page by using one I previously created for web last year.
+* modified all the links to match our pages
+* added the CSS to the style.css file
+* 
 
 
