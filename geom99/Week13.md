@@ -60,10 +60,24 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/5e2cae44-c1c5-4910-86dc-71041383a5a3)
 
 * Optionally, you can create a sample report now, which doesn't consume any credits suing the create_sample_report method, however, this can be easily done in the survey123 manager app, so I don't feel this is necessary for us.
-* 
+* Now we want to generate a report, they can be generated as a docx file or pdf (using output_format param) and can be downloaded locally or saved to your organization.
+* Lets save to organization, because we want to see if we are able to schedule an email notification or something of that sort with the generated report.
+* You need to provide a folder id argument in order to save to your content on your account.
+* Where clauses can be provided her to filter by creation date etc
+![image](https://github.com/lowylori/technicallogs/assets/49323685/8006ad7f-1c4b-43d5-aa48-91560d3554f0)
 
+* Check content in your AGOL account to confirm report was created. Option to download the docx from here.
+ ![image](https://github.com/lowylori/technicallogs/assets/49323685/9ed5e6e9-7947-4cf3-bad8-cb5ae7636f46)
 
+* Download the report and check it out.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/faa02f6a-2195-44ce-a0fe-8c7f9bac3303)
 
+* I know its not that interesting since I only have one record - however, the more records, the more credits it costs. 
+
+### Scheduling a Notebook Task
+
+* Unfortunately, from my organizational account, I'm not able to schedule a notebook task... however, I can see if its an option from the seperate developer account that I have.
+* Turns out Notebooks isn't a feature on my account, so I will have to come back to this task after speaking to the organizational account admin.
 
 ## Task num [00/00/24 time]
 
