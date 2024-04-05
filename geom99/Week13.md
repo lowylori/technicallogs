@@ -77,7 +77,7 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 ### Scheduling a Notebook Task
 
 * Unfortunately, from my organizational account, I'm not able to schedule a notebook task... however, I can see if its an option from the seperate developer account that I have.
-* Turns out Notebooks isn't a feature on my account, so I will have to come back to this task after speaking to the organizational account admin.
+* Turns out Notebooks isn't a feature on my dev account, so I will have to come back to this task after speaking to the organizational account admin.
 
 ## Task num [00/00/24 time]
 
