@@ -44,8 +44,23 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 * use survey manager to access your survey by item number (go to the items page of your form)
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/29632dad-3cd0-443b-81a1-3613fe922a11)
 
-* We want to see our available templates (to use for our report). Use the report_templates method to create a list of templates. Print the title property of the template.
-![image](https://github.com/lowylori/technicallogs/assets/49323685/affc8154-f184-4771-afb1-017678afdad6)
+* We want to see our available templates (to use for our report). Use the report_templates method to create a list of templates. Print the titles property of the templates. Store your template in a var.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/c7e5fdc9-386f-4cfc-84d1-9960ab183fe4)
+
+* If the template has invalid syntax it will result in an error when we generate the report. As a precaution, lets check template syntax using the check_template_syntax method.
+![image](https://github.com/lowylori/technicallogs/assets/49323685/d5fd4cb0-9788-44a6-ac4c-37f03b581ae4)
+
+* This resulted in type error. Refer to documentation on this method.
+  * https://developers.arcgis.com/python/api-reference/arcgis.apps.survey123.html
+* it is expecting timeplate_file which is a directory path to a template file
+* since Survey is a child class of item, check item properties documentation
+* I tried accessing a couple different properties but wasn't able to get it... going to move on and will come back to this later.
+* save
+* Check how much credits this will cost using the estimate method. Print result. This will only cost .5 credits
+![image](https://github.com/lowylori/technicallogs/assets/49323685/5e2cae44-c1c5-4910-86dc-71041383a5a3)
+
+* Optionally, you can create a sample report now, which doesn't consume any credits suing the create_sample_report method, however, this can be easily done in the survey123 manager app, so I don't feel this is necessary for us.
+* 
 
 
 
