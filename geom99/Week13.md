@@ -160,7 +160,8 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 * cloned the repo and added it to visual studio code for easier use.
 * Set up the nav bar on the index page by using one I previously created for web last year.
 * modified all the links to match our pages
-* added the CSS to the style.css file
-* 
+* added the CSS to the style.css file for styling the navbar
+* added the JS for responsive design, switching the navbar to a hamburger button when the screen is small
+* lastly, copied over this general template home page to all the other pages, chanaging the active bar for each one and the title - however, this push got overwritten and was done again by another group member.
 
 
