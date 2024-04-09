@@ -19,4 +19,11 @@ https://lowylori.github.io/technicallogs/geom99/Week11
 ```
 https://lowylori.github.io/technicallogs/geom99/Week12
 ```
-### Week 13:
+### Week 13: Collab Web Project - Make Software, Jupyter Notebooks [04/04/24 3.5 hrs]
+```
+https://lowylori.github.io/technicallogs/geom99/Week13
+```
+### Week 14:
+```
+https://lowylori.github.io/technicallogs/geom99/Week14
+```
