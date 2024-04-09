@@ -154,25 +154,31 @@ We want to automate report generation as a scheduled task in jupyter notebook. F
 ## Work on website submission for solution [03/31/24 60 mins] *screenshots added late for this section on 04/08/24
 
 * Created new github repo: sawc
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/1c75d532-131b-42e7-93c5-a178442caa0b)
  
 * added group members as collaborators
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/8df74997-0400-48d4-8581-9f971c33a926)
  
 * created general file structor and folders
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/6471de14-4a7f-4b85-ac08-73387fdcc65f)
  
 * generated a task list for the team and myself to stay on track
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/ab14caf9-7f1b-4fa1-80d7-f841905c18e4)
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/6d1ad905-88d4-48a1-8645-6c323c38ca34)
  
 * cloned the repo and added it to visual studio code for easier use.
 * Set up the nav bar on the index page by using one I previously created for web last year.
 * Starting with the HTML, creating a div for the navbar within the body section
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/af3a240c-c57c-47e6-8779-e853a0c892b9)
 
 * modified all the links to match our pages
 * added the CSS to the style.css file for styling the navbar
+
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/a49c5c02-9aed-43a3-98c1-22e4e5ee62f4)
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/668b7d9a-835c-4abc-bf28-f3c9530ac4a7)
 
