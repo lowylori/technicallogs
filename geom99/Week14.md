@@ -66,6 +66,9 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 
 * uploaded the images to the assets folder and added in the image tags for the page.
 
+* Added content into our integratedmethod.html page
+![image](https://github.com/lowylori/technicallogs/assets/49323685/cd4f0c2b-20f4-418b-b35a-20fac4275d5e)
+
 
 ## Task num [00/00/24 time]
 
