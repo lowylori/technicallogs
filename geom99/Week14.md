@@ -59,7 +59,13 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 
 ## Work on Website [04/11/24 90 mins]
 
-Desc
+* Populated content in our thingswetried.html page
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/dbb95b6c-6c44-4540-9bca-591bb60a0ba1)
+![image](https://github.com/lowylori/technicallogs/assets/49323685/764d950b-d33a-401c-b136-02ee5e71f516)
+
+* uploaded the images to the assets folder and added in the image tags for the page.
+
 
 ## Task num [00/00/24 time]
 
