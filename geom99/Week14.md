@@ -12,7 +12,7 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 ### Steps:
 - [x] Fix issues in Power Automate workflow [30 mins]
 - [x] Work on Website [90 mins]
-- [ ] step 3
+- [x] Complete a bunch of surveys to populate excel doc [20 mins]
 - [ ] step 4
 
 ## Fix issues in Power Automate workflow [04/08/24 30 mins]
@@ -69,8 +69,9 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 * Added content into our integratedmethod.html page
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/cd4f0c2b-20f4-418b-b35a-20fac4275d5e)
 
+* Added content to integratedsolution.html page
 
-## Task num [00/00/24 time]
+## Complete a bunch of surveys to populate excel doc [04/11/24 time]
 
 Desc
 
