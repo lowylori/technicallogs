@@ -71,6 +71,12 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 
 * Added content to integratedsolution.html page
 
+![image](https://github.com/lowylori/technicallogs/assets/49323685/3a81b5e4-4de4-480f-a688-684b9bbfe2bc)
+![image](https://github.com/lowylori/technicallogs/assets/49323685/3a775d7e-24b6-4b6b-95f0-e6ecbcca6a96)
+![image](https://github.com/lowylori/technicallogs/assets/49323685/369452d7-623f-4ed7-af3d-738320a63109)
+
+
+
 ## Complete a bunch of surveys to populate excel doc [04/11/24 time]
 
 Desc
