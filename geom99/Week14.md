@@ -10,8 +10,8 @@ Total Time:
 Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-the-arcgis-survey123-date-and-time-ques-000023954
 
 ### Steps:
-- [ ] Fix issues in Power Automate workflow [30 mins]
-- [ ] step 2
+- [x] Fix issues in Power Automate workflow [30 mins]
+- [x] Work on Website [90 mins]
 - [ ] step 3
 - [ ] step 4
 
@@ -57,7 +57,7 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 
 * Now that we know the date works, its a simple process to get the date and time (change in survey123) and use a date/time option for the set time unit in the convert time zone action.
 
-## Task num [00/00/24 time]
+## Work on Website [04/11/24 90 mins]
 
 Desc
 
