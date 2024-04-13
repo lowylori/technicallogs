@@ -1,19 +1,19 @@
 # Week 14 Log
 ### Summary
 
-Description:
+Description: Completing final website, last minute fixes to power automate flow, final exam solution worklog.
 
 Date: April 8, 2024
 
-Total Time:
+Total Time: 4hr 20 mins
 
 Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-the-arcgis-survey123-date-and-time-ques-000023954
 
 ### Steps:
 - [x] Fix issues in Power Automate workflow [30 mins]
-- [x] Work on Website [90 mins]
+- [x] Work on Website [150 mins]
 - [x] Complete a bunch of surveys to populate excel doc [20 mins]
-- [ ] step 4
+- [ ] Work on final exam solution [60 mins]
 
 ## Fix issues in Power Automate workflow [04/08/24 30 mins]
 
@@ -57,7 +57,7 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 
 * Now that we know the date works, its a simple process to get the date and time (change in survey123) and use a date/time option for the set time unit in the convert time zone action.
 
-## Work on Website [04/11/24 90 mins]
+## Work on Website [04/11/24 150 mins]
 
 * Populated content in our thingswetried.html page
 
@@ -75,16 +75,40 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/3a775d7e-24b6-4b6b-95f0-e6ecbcca6a96)
 ![image](https://github.com/lowylori/technicallogs/assets/49323685/369452d7-623f-4ed7-af3d-738320a63109)
 
+* Spell checked website, using spell checker extension on VS code
+* checked for css, html and javascript errors on the site
+* got stuck fixing a particular html error, with the nested <ol> lists on the integrated solution page. We wanted to have a paragraph describing each list item below the list. there were a couple solutions we come up with, since <p> is not a child element of <ol>.
+ * one option was to switch to a desciption list <dl> which allows you to write a descriptions for each point, however, you have to manually write the numbers for the list (ie 1., 2., etc)
+ * another option was to use <br> within the list to break to the next line for a desription.
+ * We ended up going with both solutions for two seperate parts, and then got an error for having <ol> as a child element of <ol>. This was silly and stumpted me for a while bc I knew that I should be able to nest lists. Finally realized that the nested ol needs to be inside and li element
+This was how I was doing it:
+<ol>
+ <li>list item</li>
+ <ol>
+  <li>nested list item</li>
+ </ol>
+</ol>
+
+But it should be like this:
+<ol>
+ <li>list item</li>
+ <li>
+  <ol>
+   <li>nested list item</li>
+  </ol
+ </li>
+</ol>
+
+* we were up until about 2am fixing footer issues, where the page doesn't have enough content for the footer to sit at the bottom for a really large screen. To solve this we added a media query for large screens and increased the padding for the main content area to push the footer down. This was done for the 'thingswetried.html' page.
+* centered images, checked out the size of images and how it looked with our formatting and resized and reuploaded on a trail and error basis - as they were screenshots and not a consistant size.
+* general final touches on the website like responsive images, editing text, minor css changes. Double checked css doc for proper format and made sure we commented what we were doing with each selector.
 
 
-## Complete a bunch of surveys to populate excel doc [04/11/24 time]
+## Complete a bunch of surveys to populate excel doc [04/11/24 20 mins]
 
-Desc
+Populated several surveys on survey123 with various responses to test the Power Automate workflow and populate the excel spreadsheet for report generating. 
 
-## Task num [00/00/24 time]
+## Work on final exam solution [03/12/24 60 mins]
 
-Desc
 
-## Task num [00/00/24 time]
 
-Desc
