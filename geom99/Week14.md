@@ -81,7 +81,7 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
  * one option was to switch to a desciption list <dl> which allows you to write a descriptions for each point, however, you have to manually write the numbers for the list (ie 1., 2., etc)
  * another option was to use <br> within the list to break to the next line for a desription.
  * We ended up going with both solutions for two seperate parts, and then got an error for having <ol> as a child element of <ol>. This was silly and stumpted me for a while bc I knew that I should be able to nest lists. Finally realized that the nested ol needs to be inside and li element
-This was how I was doing it:
+This was how I was doing it: (look at code view)
 <ol>
  <li>list item</li>
  <ol>
