@@ -153,4 +153,21 @@ Middle tier took the most amount of thought b/c this is where we can control the
 * Web maps/Web services
   * create webmaps within qgis desktop and publish to the qgis cloud server easily
   * maps and data can be shared using ogc compatible web services. WMS, WFS.
-* Cusomizable web application that allows you to print maps from the web app. Print layouts can be pre-created. also there is security in the qgis cloud pro which would require users to sign in to access the web application via a qgis cloud free account.
+* Cusomizable web client application that allows you to print maps from the web app. Print layouts can be pre-created. also there is security in the qgis cloud pro which would require users to sign in to access the web application via a qgis cloud free account.
+
+Here is a breakdown of the components:
+
+Web tier: 
+* Using QGIS Cloud web client which allows you to view a webmap with the layers published to the QGIS cloud.
+* Features:
+  * Turn off/on map layers
+  * adjust extent
+  * adjust transparency of a payer
+  * seach - defined custom SQL search queries that can be configued to use in the web cient ie. we can use the address shape file to define a search query for real estate agents to quickly locate a parcel.
+  * printing map layouts - the pring layouts created is QGIS projects are available in the web map as well. These can be manually set up in QGIS to get an offical local goverment look.
+    * Then, using the print fuction within the web client, you can select an extent and pring using the pregenerated layout
+  * ability to use either google or bing sateillite base maps - although you may not use google in a print map (copyright)
+  * ability to adjust the appearence for the web client using CSS logic
+  * access security - because this will solution will not be free to maintain, real estate offices will need to register for accounts and pay an annual fee. BC this solution will cost somewhere btwn 1140-1488/yr, an annual fee of about $30 from 50 offices will cover them. Thats pretty cheap
+  * 
+
