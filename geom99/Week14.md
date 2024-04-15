@@ -164,10 +164,16 @@ Web tier:
   * adjust extent
   * adjust transparency of a payer
   * seach - defined custom SQL search queries that can be configued to use in the web cient ie. we can use the address shape file to define a search query for real estate agents to quickly locate a parcel.
-  * printing map layouts - the pring layouts created is QGIS projects are available in the web map as well. These can be manually set up in QGIS to get an offical local goverment look.
-    * Then, using the print fuction within the web client, you can select an extent and pring using the pregenerated layout
+  * printing map layouts - the print layouts created is QGIS projects are available in the web map as well. These can be manually set up in QGIS to get an offical local goverment look.
+    * Then, using the print fuction within the web client, you can select an extent and print using the pregenerated layout
   * ability to use either google or bing sateillite base maps - although you may not use google in a print map (copyright)
   * ability to adjust the appearence for the web client using CSS logic
   * access security - because this will solution will not be free to maintain, real estate offices will need to register for accounts and pay an annual fee. BC this solution will cost somewhere btwn 1140-1488/yr, an annual fee of about $30 from 50 offices will cover them. Thats pretty cheap
-  * 
+    * with the QGIS cloud pro ability to restrict access to a certain group of users, they will thus be able to control the access. Users will have to sign in to view the protected map.
 
+Data Tier:
+* the QGIS Cloud DB is a PostreSQL PostGIS db
+* Limitatioin: max 10 dbs adding up to the total storage you pay for (500mb or more if chosen); only one user for each db - if we stick to using one db, there will only be one administrator.
+* DB is created via the QGIS Cloud Plugin on QGIS desktop. This automatically creates the connection to that database and therefore simplifies the process.
+* BD can be managed with GGIS browser, the QGIS DB manager or a 3rd party product such as pgadmin. using 3rd party, you will need to use the db credentials to manage it.
+* 
