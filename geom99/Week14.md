@@ -188,4 +188,11 @@ Middle Tier: https://docs.qgiscloud.com/en/#publishing-a-map-with-the-qgis-cloud
   * WMS is a web map service (OGC)
   * WMTS is a web map tile service (OGC)
   * WFS is a web feature service (OGC) for vector data only
-* 
+
+One final issue remains which is updating the data/making it live:
+* the manual way to do this would be to delete the previous webmap and reupload the data to the database and republish the map - but this would need to be done weekly for parcels and it's not a very efficent way of setting this up.
+* However, I came across this solution which could be a potential fix: https://blog.sourcepole.ch/2023/03/30/qgiscloud-postgresql_fdw/
+* It uses postgreSQL FDW - foreign data wrapper, which cam be used to access data stored in external postgreSQL servers which, with the use of an additional local postgres DB, allow you to maintin live data on both dbs without service gaps on your website
+* this process will essentially replicate the data from a local db to the qgis cloud db
+* within  the QGIS DB manager, you have to enter the sql commands that first create an extension prostgres_fdw, then connect the cloud db to the local db. Once the connection is established, you have to map the user of the QGIS clou bd to the local db.
+* with this connection, changes within the local db would be reflected in the cloud db. There is some additional SQL that needs to be inplemented, pertaining the the layers that will be edited, but this is just the basiccs.
