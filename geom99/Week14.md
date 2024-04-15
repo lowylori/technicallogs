@@ -117,12 +117,12 @@ Populated several surveys on survey123 with various responses to test the Power 
 * no server infrastructure -> means that the server will have to be on cloud
 * only support windows desktop machines
 * Basemap
- * Aerial imagery
+  * Aerial imagery
 * Operational Layers:
- * there are about 4,000 parcel polygon records
-  * these need to be updated weekly
-* Roads, Parks & address points
-  * Update every 2 months
+  * there are about 4,000 parcel polygon records
+    * these need to be updated weekly
+  * Roads, Parks & address points
+    * Update every 2 months
 * If there are any monthly/yearly costs associated with the solution, the realestate agents will have to pay
  * If realestate agents must pay, the data needs to be secured with authentification to access.
 
