@@ -13,7 +13,7 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
 - [x] Fix issues in Power Automate workflow [30 mins]
 - [x] Work on Website [150 mins]
 - [x] Complete a bunch of surveys to populate excel doc [20 mins]
-- [ ] Work on final exam solution [60 mins]
+- [x] Work on final exam solution [60 mins]
 
 ## Fix issues in Power Automate workflow [04/08/24 30 mins]
 
@@ -108,7 +108,35 @@ But it should be like this:
 
 Populated several surveys on survey123 with various responses to test the Power Automate workflow and populate the excel spreadsheet for report generating. 
 
-## Work on final exam solution [03/12/24 60 mins]
+## Work on final exam solution [04/12/24-04/15/24 60 mins]
+
+### Understanding the project requirements:
+* Issue: currently real estate agents need an easier/less expensive way to access surveyed boundries (parcel polygons) within administered by a local gov
+* solution should not cost more than 36k to run and maintain
+* local gov currently uses QGIS as a destop software but is open to commercial products
+* no server infrastructure -> means that the server will have to be on cloud
+* only support windows desktop machines
+* Basemap
+ * Aerial imagery
+* Operational Layers:
+ * there are about 4,000 parcel polygon records
+  * these need to be updated weekly
+* Roads, Parks & address points
+  * Update every 2 months
+* If there are any monthly/yearly costs associated with the solution, the realestate agents will have to pay
+ * If realestate agents must pay, the data needs to be secured with authentification to access.
+
+### Design:
+
+Web Tier:
+* Idea: a cutom web application created using leaflet javascript API, users need to sign in to access the web application data. End users can view the map and select the area they would like to download and export it as subset of the map (PDF?, JPEG?, PNG?)
+* Map contains an aerial basemap with the parcels, roads, parks and address point operational layers that can be toggled on/off.
+* Seach feature to allow real estate agents to find parel by address point 
+
+Middle Tier:
+* This is where expense will incur... we need a server to serve the layers to the web tier, however, the local government does not have the infrastructure to support a server. This means we will need to host the server on the cloud, which involves using a virtual machine that will cost $$.
 
 
 
+Data Tier:
+* we know we have multiple various vector based shape files that need to be accessed from a middle tier to serve to the web tier. We want a free geospatial DB, that is compatible with the chosen middle tier solution.
