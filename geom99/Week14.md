@@ -140,3 +140,7 @@ Middle Tier:
 
 Data Tier:
 * we know we have multiple various vector based shape files that need to be accessed from a middle tier to serve to the web tier. We want a free geospatial DB, that is compatible with the chosen middle tier solution.
+
+
+Desktop software:
+* We know they currently use QGIS and they don't have any GIS experts, so the process from getting the data from QGIS onto a database and published to a server needs to relatively simple.
