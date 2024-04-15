@@ -174,6 +174,18 @@ Web tier:
 Data Tier:
 * the QGIS Cloud DB is a PostreSQL PostGIS db
 * Limitatioin: max 10 dbs adding up to the total storage you pay for (500mb or more if chosen); only one user for each db - if we stick to using one db, there will only be one administrator.
+* Benefits: spetial database knowledge is not necessary
 * DB is created via the QGIS Cloud Plugin on QGIS desktop. This automatically creates the connection to that database and therefore simplifies the process.
 * BD can be managed with GGIS browser, the QGIS DB manager or a 3rd party product such as pgadmin. using 3rd party, you will need to use the db credentials to manage it.
+* Adding data to the DB - before publishing to the server, the data needs to be stored on the database - this is easy to do.
+  * within QGIS cloud plug in, use the load data tab. Select the db and set the schema
+
+Middle Tier: https://docs.qgiscloud.com/en/#publishing-a-map-with-the-qgis-cloud-plugin
+* Publishing to the Server. With the QGIS Cloud Plug in installed to the QGIS desktop, you are able to sign into your pro account.
+* Benefit: you dont have to set up any complicated map definietions to publish a map. The map is created and defined within QGIS then published directly in there
+* Ater the map is created and the data from the map is stored on the db, you are ready to publish a map.
+* Publishing the map means you have uploaded the map the QGIS cloud server and the server loads all layers and display information and sends it to the browser as a WMS, WMTS or as a WFS (https://docs.qgiscloud.com/en/#wms)
+  * WMS is a web map service (OGC)
+  * WMTS is a web map tile service (OGC)
+  * WFS is a web feature service (OGC) for vector data only
 * 
