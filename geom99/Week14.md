@@ -136,11 +136,21 @@ Web Tier:
 Middle Tier:
 * This is where expense will incur... we need a server to serve the layers to the web tier, however, the local government does not have the infrastructure to support a server. This means we will need to host the server on the cloud, which involves using a virtual machine that will cost $$.
 
-
-
 Data Tier:
 * we know we have multiple various vector based shape files that need to be accessed from a middle tier to serve to the web tier. We want a free geospatial DB, that is compatible with the chosen middle tier solution.
 
-
 Desktop software:
 * We know they currently use QGIS and they don't have any GIS experts, so the process from getting the data from QGIS onto a database and published to a server needs to relatively simple.
+
+Final solution: https://docs.qgiscloud.com/en/#
+
+Middle tier took the most amount of thought b/c this is where we can control the expense of maintaining the solution. Ultimately it also dictated what spatial DB i could use and how the web tier will connect. I explored ArcGIS Server (too expensive) and Geoserver hosted on Amazon cloud service (geoserver is free but ur paying for cloud). However, the most streamlined solution was using QGIS cloud pro. Heres why:
+
+* The local government is already using QGIS, and are likely familiar with some of its basic functionality
+* data managment - the cloud provides a PostgresSQL db expended with PostGIS spatial component. Can have multiple databases and can be managed with pgAdmin or even within QGIS DB manager
+  * The workflow is simple for brining the data into the db. It can be done directly in QGIS. Get the data from your pc > QGIS cloud postgres db by using the QGIS Cloud plugin. Usinging load data tab,  select the local layers you want to upload. can edit the db schema as desired.
+  * limitation: pro comes with 500 mb of storage - additional storage is available though from 20 eu a month for 1 gb = 1.5gb. Should be more than enough for the needs of this project, as it is just shp files.
+* Web maps/Web services
+  * create webmaps within qgis desktop and publish to the qgis cloud server easily
+  * maps and data can be shared using ogc compatible web services. WMS, WFS.
+* Cusomizable web application that allows you to print maps from the web app. Print layouts can be pre-created. also there is security in the qgis cloud pro which would require users to sign in to access the web application via a qgis cloud free account.
