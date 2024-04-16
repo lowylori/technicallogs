@@ -23,7 +23,7 @@ https://lowylori.github.io/technicallogs/geom99/Week12
 ```
 https://lowylori.github.io/technicallogs/geom99/Week13
 ```
-### Week 14:
+### Week 14: Collab Web Project - Working on website, fixing errors  [04/08/44 4.25 hrs]
 ```
 https://lowylori.github.io/technicallogs/geom99/Week14
 ```
