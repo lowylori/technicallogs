@@ -81,23 +81,8 @@ Reference Links: https://support.esri.com/en-us/knowledge-base/how-to-reformat-t
  * one option was to switch to a desciption list <dl> which allows you to write a descriptions for each point, however, you have to manually write the numbers for the list (ie 1., 2., etc)
  * another option was to use <br> within the list to break to the next line for a desription.
  * We ended up going with both solutions for two seperate parts, and then got an error for having <ol> as a child element of <ol>. This was silly and stumpted me for a while bc I knew that I should be able to nest lists. Finally realized that the nested ol needs to be inside and li element
-This was how I was doing it: (look at code view)
-<ol>
- <li>list item</li>
- <ol>
-  <li>nested list item</li>
- </ol>
-</ol>
-
-But it should be like this:
-<ol>
- <li>list item</li>
- <li>
-  <ol>
-   <li>nested list item</li>
-  </ol
- </li>
-</ol>
+This was how I was doing it:
+<img width="352" alt="Screenshot 2024-04-16 at 11 48 22 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/2e31f1cc-ee80-4ca3-912c-3a59a2b46a4f">
 
 * we were up until about 2am fixing footer issues, where the page doesn't have enough content for the footer to sit at the bottom for a really large screen. To solve this we added a media query for large screens and increased the padding for the main content area to push the footer down. This was done for the 'thingswetried.html' page.
 * centered images, checked out the size of images and how it looked with our formatting and resized and reuploaded on a trail and error basis - as they were screenshots and not a consistant size.
