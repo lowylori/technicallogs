@@ -10,12 +10,12 @@ Total Time:
 Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 
 ### Steps:
-- [ ] Creating a Hosted Feature layer in AGOL from a gpkg
-- [ ] step 2
-- [ ] step 3
+- [ ] Creating a Hosted Feature Layer in AGOL From a gpkg
+- [ ] Edit a Single Layer Geopackage in QGIS
+- [ ] Update Published Hosted Feature Layer in AGOL
 - [ ] step 4
 
-## Create a Hosted Feature Layer in AGOL from a gpkg  [05/13/24 20 mins]
+## Create a Hosted Feature Layer in AGOL From a gpkg  [05/13/24 20 mins]
 
 ### Single layer geopackage (simple)
 
@@ -32,15 +32,18 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 * Complete item metadata and continue. Once it finished processing you will have 2 items added to content, a geopackage and a feature layer.
 <img width="772" alt="Screenshot 2024-05-13 at 7 13 11 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/06389f0d-aea4-4296-8603-6aafce4edb6d">
 
-
+* Move onto the next step - Edit Geopackage in QGIS
 
 ### Multilayer geopackage 
 
 * Create a new geopackage in QGIS
 
-## Task num [00/00/24 time]
+## Edit a Single Layer Geopackage in QGIS [00/00/24 time]
 
-Desc
+* Open up QGIS
+* Under the layer tab, open the Data Source Manager. Find the tab that says Geopackage
+* Select 'New' and browse your device for the gpkg
+* Select 'Connect' and you will see the layers available within the gokg
 
 ## Task num [00/00/24 time]
 
