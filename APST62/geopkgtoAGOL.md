@@ -101,11 +101,19 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 <img width="491" alt="Screenshot 2024-05-13 at 9 07 20 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/e2e62413-f280-4c30-8bfe-6d163edc7ce8">
 
 * Deleting the fields seemed to mess with the 'type' coloum and then QGIS crashed lol
+
+<img width="269" alt="Screenshot 2024-05-13 at 9 11 11 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/6315d3ed-6ce2-455b-b494-cd546460d4b8">
+
 * The objectID field was recreated when I reopened it.
 
 <img width="314" alt="Screenshot 2024-05-13 at 9 12 47 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/5a26a36e-99ec-4925-920b-0dca723b5959">
 
-<img width="269" alt="Screenshot 2024-05-13 at 9 11 11 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/6315d3ed-6ce2-455b-b494-cd546460d4b8">
+* Lets try again in AGOL
+
+<img width="890" alt="Screenshot 2024-05-13 at 9 19 48 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/48584f30-69f1-45e3-aab7-26109788dca6">
+
+* Check out the helpful error msg at the bottom of the screen
+
 
 ## Task num [00/00/24 time]
 
