@@ -76,6 +76,26 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 
 * When this fails, the hosted feature layer no longer works, and you get an error publishing the service 
 
+### Troubleshooting
+
+* Delete the failed hosted feature layer and geopkg items off AGOL
+* Rename the geopkg on your device
+* Open gpkg in QGIS
+* Lets see if the issue is due to the GlobalID or ObjectID fields
+* rename them as pictured below in layer properties. Save edits
+
+<img width="612" alt="Screenshot 2024-05-13 at 8 40 10 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/b9b7d2d2-335c-4b88-9fde-039d2f9bbd86">
+
+* Turns out QGIs doesnt like this
+
+<img width="505" alt="Screenshot 2024-05-13 at 8 41 15 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/d8a17e78-a49f-426b-9f97-6c962fed422c">
+
+* It also doesn't want you to change the name back either.
+
+<img width="500" alt="Screenshot 2024-05-13 at 8 46 30 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/2c300b5a-d342-444e-992d-26b134116113">
+
+
+
 ## Task num [00/00/24 time]
 
 Desc
