@@ -10,8 +10,9 @@ Total Time:
 Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 
 ### Steps:
-- [ ] Creating a Hosted Feature Layer in AGOL From a gpkg
+- [x] Creating a Hosted Feature Layer in AGOL From a gpkg
 - [ ] Edit a Single Layer Geopackage in QGIS
+- [ ] Edit a Multi Layer Geopackage in QGIS
 - [ ] Update Published Hosted Feature Layer in AGOL
 - [ ] step 4
 
@@ -43,11 +44,37 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 * Open up QGIS
 * Under the layer tab, open the Data Source Manager. Find the tab that says Geopackage
 * Select 'New' and browse your device for the gpkg
-* Select 'Connect' and you will see the layers available within the gokg
+* Select 'Connect' and you will see the layers available within the gpkg
 
-## Task num [00/00/24 time]
+<img width="734" alt="Screenshot 2024-05-13 at 8 08 11 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/a8f705d3-da66-4b86-95e1-d1d4ec3c22aa">
 
-Desc
+* Make the required edits to the geopackage and close. You are ready to update on AGOL now.
+* 
+
+## Update (overwrite) Published Hosted Feature Layer in AGOL [00/00/24 time]
+
+* With your newly edited gpkg ready to go, open AGOL and sign in
+* located the hosted feature layer containing your geopkg data
+* open the items page
+* click update data, then select 'overwrite entire feature layer'
+
+<img width="879" alt="Screenshot 2024-05-13 at 8 22 00 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/68995785-89ff-4875-bdb1-1295b19bafd6">
+
+* Click next
+* Browse for the gpkg file in your device
+
+> [!WARNING]  
+> File name and layer names must stay exactly the same as the origional upload
+
+* A screen will come up that says 'overwriting'
+* Once its successful, the items page will pop up with a message along the bottom of the screen. 
+<img width="879" alt="Screenshot 2024-05-13 at 8 24 58 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/a0e7bead-a305-4fb5-8f55-305aabacc274">
+
+* This time it was not successful, and the error msg is useless. :(
+
+<img width="888" alt="Screenshot 2024-05-13 at 8 25 57 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/c6aafd91-1684-44a1-b8ac-b27aacb16400">
+
+* When this fails, the hosted feature layer no longer works, and you get an error publishing the service 
 
 ## Task num [00/00/24 time]
 
