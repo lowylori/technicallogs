@@ -12,8 +12,8 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 ### Steps:
 - [x] Creating a Hosted Feature Layer in AGOL From a gpkg
 - [ ] Edit a Single Layer Geopackage in QGIS
-- [ ] Edit a Multi Layer Geopackage in QGIS
 - [ ] Update Published Hosted Feature Layer in AGOL
+- [ ] Edit a Multi Layer Geopackage in QGIS
 - [ ] step 4
 
 ## Create a Hosted Feature Layer in AGOL From a gpkg  [05/13/24 20 mins]
@@ -94,7 +94,7 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 
 <img width="500" alt="Screenshot 2024-05-13 at 8 46 30 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/2c300b5a-d342-444e-992d-26b134116113">
 
-
+* Maybe this is due to the fact that the data was created in an Esri environment and these fields are not editable?
 
 ## Task num [00/00/24 time]
 
