@@ -96,6 +96,17 @@ Reference Links: https://www.youtube.com/watch?v=9ojA8u4nRag
 
 * Maybe this is due to the fact that the data was created in an Esri environment and these fields are not editable?
 
+* Lets delete the fields instead of renaming. Remove the layer and dont save the changes
+* Use the delete field to delete the OBJECTID and GlobalID field.
+<img width="491" alt="Screenshot 2024-05-13 at 9 07 20 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/e2e62413-f280-4c30-8bfe-6d163edc7ce8">
+
+* Deleting the fields seemed to mess with the 'type' coloum and then QGIS crashed lol
+* The objectID field was recreated when I reopened it.
+
+<img width="314" alt="Screenshot 2024-05-13 at 9 12 47 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/5a26a36e-99ec-4925-920b-0dca723b5959">
+
+<img width="269" alt="Screenshot 2024-05-13 at 9 11 11 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/6315d3ed-6ce2-455b-b494-cd546460d4b8">
+
 ## Task num [00/00/24 time]
 
 Desc
