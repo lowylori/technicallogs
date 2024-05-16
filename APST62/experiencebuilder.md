@@ -39,7 +39,7 @@ Reference Links:
 <img width="934" alt="Screenshot 2024-05-16 at 10 30 53 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/9a8eb805-5488-42cf-9578-307e5656fe84">
 
 
-## Configure Home Page [00/00/24 time]
+## Configure Home Page [05/16/24 20 mins]
 
 * Select the home pg
 * Enable the header by turning it on, set colour (#ded9cc) and height (50px)
@@ -60,7 +60,8 @@ Reference Links:
 <img width="1416" alt="Screenshot 2024-05-16 at 10 59 38 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/22cda29d-0324-473c-a985-8595ff0c2a22">
 
 * Add a fixed pannel from widgets, align center
-* 
+* From widgets, create 2 text boxes within the pannel. Connect data later
+<img width="1311" alt="Screenshot 2024-05-16 at 11 51 28 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/f7e32cc4-cd6a-48ab-9b48-e1b5a93b314f">
 
 
 
