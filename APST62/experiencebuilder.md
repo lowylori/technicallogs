@@ -12,7 +12,7 @@ Reference Links:
 ### Steps:
 - [x] Create and make file structure of Web Experience [10 mins]
 - [ ] Configure Home page
-- [ ] step 3
+- [x] Configure Assignments Page
 - [ ] step 4
 
 ## Create and make file structure of Web Experience [05/16/24 10 mins]
@@ -83,9 +83,20 @@ Reference Links:
 <img width="355" alt="Screenshot 2024-05-16 at 2 05 29 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/442cbe96-ffb9-4448-9f17-e93e6fb0776e">
 
 
-## Task num [00/00/24 time]
+## Configure Assignment Page [05/16/24 10 mins]
 
-Desc
+* Create a new workforce Project
+* Configure to requirements
+* Open the workforce create assignment page
+* copy url
+* In experience builder, open the assignments page
+* enable header
+* Under widgets, locate 'embed', drag it onto the page
+* resize to fit the screen. 
+* paste the url to embed the assignment page
+* That was an easy one :)
+  
+<img width="1164" alt="Screenshot 2024-05-16 at 3 09 20 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/3c78fceb-792c-4a51-9953-9eb1ac9ef57c">
 
 ## Task num [00/00/24 time]
 
