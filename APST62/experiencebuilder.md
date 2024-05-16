@@ -11,9 +11,10 @@ Reference Links:
 
 ### Steps:
 - [x] Create and make file structure of Web Experience [10 mins]
-- [ ] Configure Home page
+- [x] Configure Home page
 - [x] Configure Assignments Page
-- [ ] step 4
+- [ ] Configure Monitor Page
+- [ ] Embed crowdsorce app to the Manage page
 
 ## Create and make file structure of Web Experience [05/16/24 10 mins]
 
@@ -82,6 +83,21 @@ Reference Links:
 
 <img width="355" alt="Screenshot 2024-05-16 at 2 05 29 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/442cbe96-ffb9-4448-9f17-e93e6fb0776e">
 
+* Now for unassigned Work, lets connect the data to the workforce project web map, choose the assignments layer
+
+<img width="519" alt="Screenshot 2024-05-16 at 3 20 50 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/328e5b4a-fcdd-40ed-8a58-7e1b408caac1">
+
+* Click the dropdown open create new view and open up the window. Label it Unassigned Assignments. Set the filter to be Status is Unassigned
+  
+<img width="969" alt="Screenshot 2024-05-16 at 3 24 32 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/8ebfb8bc-2845-4f77-a867-fd96281051a4">
+
+* Set the dynamic content like in the previous one
+<img width="518" alt="Screenshot 2024-05-16 at 3 30 16 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/b445afdf-5f7e-4af7-a69b-df2d175e2f9b">
+
+* Last but not least, lets link to the manage requests and create assignments pages
+* Highlight the text, then use the text format box in the right panel to connect a hyper link to another page
+
+<img width="1320" alt="Screenshot 2024-05-16 at 3 35 53 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/16bc65fd-768b-4897-9456-5d823319bb46">
 
 ## Configure Assignment Page [05/16/24 10 mins]
 
