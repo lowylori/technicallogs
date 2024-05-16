@@ -63,6 +63,24 @@ Reference Links:
 * From widgets, create 2 text boxes within the pannel. Connect data later
 <img width="1311" alt="Screenshot 2024-05-16 at 11 51 28 AM" src="https://github.com/lowylori/technicallogs/assets/49323685/f7e32cc4-cd6a-48ab-9b48-e1b5a93b314f">
 
+* Had to go back to survey and add a hidden question 'status' and set default value to 'Submitted'
+* now we can connect open requests to the survey results hosted feature layer (I'm not 100% sure if I should have created another feature layer from the survey here)
+* On the right pannel with the Open Requests text box selected, turn on connect to data
+* Choose select data and find your hosted feat layer
+
+<img width="519" alt="Screenshot 2024-05-16 at 2 00 30 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/32f1f0d3-da36-4a75-a0f2-f21ec0534543">
+
+* Choose to create a new view and set a filter to be be where the field 'Status' is 'Submitted'. Click apply changes
+
+<img width="825" alt="Screenshot 2024-05-16 at 2 01 10 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/357e60b7-25c9-4e9b-824f-c0a12013b417">
+
+* Now highlight the # sign above open requests and click the dynamic content button (looks like a DB). Under statistics connect the data, use the count operator on the field ObjID
+
+<img width="582" alt="Screenshot 2024-05-16 at 2 03 25 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/1c57535a-4b39-4e5c-aab8-1a5d1ee7ee48">
+
+* It will now update with the count of open requests (pretty cool!):
+
+<img width="355" alt="Screenshot 2024-05-16 at 2 05 29 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/442cbe96-ffb9-4448-9f17-e93e6fb0776e">
 
 
 ## Task num [00/00/24 time]
