@@ -14,6 +14,7 @@ Reference Links:
 - [x] Configure Home page
 - [x] Configure Assignments Page
 - [ ] Configure Monitor Page
+- [x] Alternative Manage Page
 - [ ] Embed crowdsorce app to the Manage page
 
 ## Create and make file structure of Web Experience [05/16/24 10 mins]
@@ -114,9 +115,24 @@ Reference Links:
   
 <img width="1164" alt="Screenshot 2024-05-16 at 3 09 20 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/3c78fceb-792c-4a51-9953-9eb1ac9ef57c">
 
-## Task num [00/00/24 time]
+##  Configure Monitor Page [05/21/24 time]
 
-Desc
+* Need to create webmap in AGOL first
+* create a webmap with the feature layer (requests) and basemap
+* Open dashboards and start a new project
+* add map (webmap)
+
+
+## Alternative Manage Page [00/00/24 10 mins]
+
+* Built in the event that the crowd source reporter app doesn't work the way we want it to
+* Add Map widget to page, connect to the Request map as data source
+* add the table widget to page, connect to maintenance request sheet
+* add feauture info widget, that connects to the maintence request
+* add a button that opens up task assignment in workforce
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/aa534510-d1f9-438a-b05b-cb58fedf8544)
+
 
 ## Task num [00/00/24 time]
 
