@@ -119,8 +119,21 @@ Reference Links:
 
 * Need to create webmap in AGOL first
 * create a webmap with the feature layer (requests) and basemap
+* set symbology
+* Save and name
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/fd8d9c6d-f4e5-43bf-9e49-e07c19e43eac)
+
+
 * Open dashboards and start a new project
 * add map (webmap)
+* add widgets to customize dashboard
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/3c82cbd3-c179-449d-bc32-0c9bfca50ce4)
+
+* Connect to experience builder by embedding on the monitor page
+
+![image](https://github.com/lowylori/technicallogs/assets/49323685/ed513d63-ab73-4baa-ab16-c2851a3ccc00)
 
 
 ## Alternative Manage Page [00/00/24 10 mins]
