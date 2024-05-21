@@ -13,7 +13,7 @@ Reference Links:
 - [x] Create and make file structure of Web Experience [10 mins]
 - [x] Configure Home page
 - [x] Configure Assignments Page
-- [ ] Configure Monitor Page
+- [x] Configure Monitor Page
 - [x] Alternative Manage Page
 - [ ] Embed crowdsorce app to the Manage page
 
