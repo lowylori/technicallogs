@@ -11,12 +11,12 @@ Reference Links:
 
 ### Steps:
 - [x] Create Group
-- [ ] Survey
+- [x] Survey
 - [ ] Workforce
 - [ ] Dashboard
 - [ ] Experience Builder
 
-## Create Group [00/00/24 time]
+## Create Group [05/28/24 5 mins]
 
 * Sign in to AGOL
 * click the group tab in the ribbon, create new group
@@ -28,7 +28,7 @@ Reference Links:
 * Choose invite members to open up a screen that allows you to search users.
 * Note: The maint_... members aren't showing up except for ops.
 
-## Survey [00/00/24 time]
+## Survey [05/28/24 10 mins]
 
 * Open Survey123 App on AGOL
 * chose create new survey
