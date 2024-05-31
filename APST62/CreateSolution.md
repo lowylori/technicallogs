@@ -12,7 +12,7 @@ Reference Links:
 ### Steps:
 - [x] Create Group
 - [x] Survey
-- [ ] Workforce
+- [x] Workforce
 - [ ] Dashboard
 - [ ] Experience Builder
 
@@ -58,7 +58,7 @@ Reference Links:
   
 <img width="849" alt="Screenshot 2024-05-30 at 3 49 44 PM" src="https://github.com/lowylori/technicallogs/assets/49323685/fe83c8aa-aaa6-4754-9dd3-e17e2dbf916c">
 
-## Workforce [00/00/24 time]
+## Workforce [05/30/24 15 mins]
 
 * Create a new workforce project
   
@@ -74,9 +74,10 @@ Reference Links:
 
 * Navigate to the overview section of the workforce project, under maps, choose dispater map .... go back to this step after a webmap is created
 
-## Task num [00/00/24 time]
+## Dashboard [05/30/24 time]
 
-Desc
+* Create a webmap using the Maintenance Request hosted feature layer
+* Style symbology based on status field
 
 ## Task num [00/00/24 time]
 
