@@ -24,7 +24,7 @@ Total Time:
 Reference Links: https://www.linkedin.com/learning/learning-data-analytics-part-2-extending-and-applying-core-knowledge/breaking-down-the-ask?autoSkip=true&resume=false&u=60192521
 
 ### Steps:
-- [ ] step 1
+- [ ] Working with Business Data & Building Data Sets w Queries
 - [ ] step 2
 - [ ] step 3
 - [ ] step 4
@@ -37,7 +37,7 @@ As good questions to understand the business rules of the request. IE: where is 
 
 ### Building Queries
 
-
+* Select Queries - 
 
 ## Task num [00/00/24 time]
 
