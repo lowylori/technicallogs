@@ -1,3 +1,9 @@
+# Code for inside FME Python Creator
+# Step 1: Create a user parameter
+
+
+
+
 import fmeobjects
 import arcpy
 import os
